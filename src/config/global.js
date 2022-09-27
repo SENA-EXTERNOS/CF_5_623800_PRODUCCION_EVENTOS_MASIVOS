@@ -1,19 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Montajes y normatividad de los eventos',
+    descripcionCurso:
+      'Todo evento requiere de una correcta planificación y organización a fin de evitar cualquier inconveniente durante y después del mismo. Una de las actividades esenciales es el montaje de todas las estructuras necesarias para la realización de lo planeado, por lo cual una buena gestión es clave para poder llevar a cabo las actividades de una manera correcta',
+    //imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
   },
   menuPrincipal: {
     menu: [
@@ -32,7 +23,8 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Tipos de montajes para eventos presenciales, híbridos y digitales',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -48,7 +40,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'El render y el raider de un evento',
         desarrolloContenidos: true,
       },
       {
