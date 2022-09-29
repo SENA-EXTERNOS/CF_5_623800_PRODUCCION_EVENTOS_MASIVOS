@@ -52,6 +52,48 @@
         p.mb-0 Los siguientes son elementos a tener en cuenta para este propósito, información basada en  el Instituto Nacional de Seguridad y Salud en el Trabajo (INSST), O.A., M.P (2020) 
     
     .row.mt-5
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 Pisos, pistas y pasarelas
+              p un buen piso puede transformar el diseño de un stand, escenario e inclusive dar otra cara a eventos en lugares abiertos. Las plataformas nos permiten adecuar los pisos, creando pistas y pasarelas con diferentes áreas y alturas.  La diversidad de estilos y materiales se adaptan según las características necesarias de cada evento
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tarjeta1_tema_1.png')})`}")
+
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tarjeta2_tema_1.png')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 John Doe
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
+
+      .col-sm-6.col-xl-3.mb-4.mb-sm-0
+        .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tarjeta3_tema_1.png')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 John Doe
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
+
+      .col-sm-6.col-xl-3
+        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tarjeta4_tema_1.png')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 John Doe
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
+    
+      .col-sm-6.col-xl-3
+        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tarjeta5_tema_1.png')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 John Doe
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
+    
+    .row.mt-5
       .col.lg-12
         p.mb-0 <b>Montaje de eventos virtuales</b>
     .row.mt-5
