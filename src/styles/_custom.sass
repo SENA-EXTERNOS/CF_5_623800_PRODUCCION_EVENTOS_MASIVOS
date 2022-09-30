@@ -21,9 +21,12 @@
 
 // introduccion    
 .titulo-principal.color-acento-contenido .titulo-principal__numero span 
-    color: #ffffff 
- 
-.cajon:before 
+  color: #ffffff 
+   
+.color_anexo-intro
+  background: #FFF6DB  
+@media ( background-color: #FEDC72)
+  .color_anexo-intro
     content: ''
     display: block
     width: 25px
@@ -33,8 +36,51 @@
     left: 0
     background-color: #FEDC72
 
-.color_anexo1
-  background: #FFF6DB 
+.imagen-decorativa-2
+  animation: float1 2.5s ease-in-out infinite alternate
+  position: absolute
+  top: 355rem
+  right: 69%
+  width: 21%
+
+@media (max-width: 500px) 
+  .imagen-decorativa-2
+    animation: float1 2.5s ease-in-out infinite alternate
+    position: absolute
+    top: 519rem
+    right: 18%
+    width: 59%        
+
+/// Tema-1
+
+.tarjeta.color-acento-contenido-trj-t1
+    color: #ffffff
+
+.tarjeta--gris-t1 
+  background-color: #F6F6F6
+
+
+  
+  
+.img.tarjeta-tema-1
+    width: 50%
+    margin-left: 25%
+
+@media (max-width: 500px) 
+  .img.tarjeta-tema-1
+    width: 25%
+    margin-left: 37%
+
+.img.tarjeta-tema-1-1
+    width: 100%
+    
+
+@media (max-width: 500px) 
+  .img.tarjeta-tema-1-1
+    width: 40%
+    margin-left: 25%      
+
+
 .color_anexo2
   background: #E2DAFC   
 
@@ -171,7 +217,7 @@
     height: 18%
     width: 67%
     margin-left: -26%
-    margin-top: -10%
+    margin-top: -7%
   
 
 

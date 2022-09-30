@@ -31,8 +31,107 @@
     .row.mt-3
       .col-lg-12
         p De manera general, se pueden mencionar algunas como:  
-        h3 OJO FALTAN TARJETAS PREGUNTAR DONDE ESTAN EN EL CATALOGO DE COMPONENTES
+    
+    .row.mt-5.justify-content-center
+      .col-8.col-lg-3.mt-3
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor  
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imgt1_tema_3.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              figure
+                img(src='@/assets/curso/temas/tema3/imgt1_tema_3.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
+              p.text-small  Contrato del sitio del evento 
 
+      .col-8.col-lg-3.mt-3
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imgt2_tema_3.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              figure
+                img(src='@/assets/curso/temas/tema3/imgt2_tema_3.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
+              p.text-small  Carta emitida por la empresa que genera la boletería, indicando el nombre de cada localidad, su aforo y el valor.
+
+      .col-8.col-lg-3.mt-3
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imgt3_tema_3.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              figure
+                img(src='@/assets/curso/temas/tema3/imgt3_tema_3.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
+              p.text-small  Documentos de identificación del solicitante Certificado de existencia y representación legal y cédula de 
+              p.text-small  ciudadanía del representante legal para personas jurídicas.
+              p.text-small  Cédula de ciudadanía o de extranjería para personas naturales. 
+              p.text-small  Registro de Información Tributaria - RIT
+
+
+
+      .col-8.col-lg-3.mt-3
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imgt4_tema_3.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              figure
+                img(src='@/assets/curso/temas/tema3/imgt4_tema_3.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
+              p.mb-0.text-small Contar con un Plan de Gestión del Riesgo o plan de contingencia para la prevención y mitigación de riesgos, 
+              p.mb-o.text-small que responda a las características particulares del escenario. 
+              p.mb-0.text-small Este plan también debe incluir las medidas sanitarias requeridas según el espacio del evento (Decreto 1276 del 2020).
+    
+    .row.mt-5.justify-content-center
+      .col-8.col-lg-3.mt-3
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor  
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imgt6_tema_3.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              figure
+                img(src='@/assets/curso/temas/tema3/imgt6_tema_3.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
+              p.mt-2 Mapa del sitio con vías de evacuación.
+
+      .col-8.col-lg-3.mt-3
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imgt7_tema_3.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              figure
+                img(src='@/assets/curso/temas/tema3/imgt7_tema_3.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
+              p.mt-2 Cumplir con las normas referentes a la intensidad auditiva, horario y ubicación, señalados por la entidad competente del respectivo municipio.
+      
+      .col-8.col-lg-3.mt-3
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imgt8_tema_3.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              figure
+                img(src='@/assets/curso/temas/tema3/imgt8_tema_3.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
+              p.mt-2 Tener las constancias o comprobantes de pago de los derechos de autor y conexos, cuando en el espectáculo público se ejecuten obras causantes de dichos pagos.
+
+      .col-8.col-lg-3.mt-3
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imgt9_tema_3.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              figure
+                img(src='@/assets/curso/temas/tema3/imgt9_tema_3.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
+              p.mt-2 Carta de autorización de bomberos
+              
+      .col-8.col-lg-3.mt-3
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imgt10_tema_3.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              figure
+                img(src='@/assets/curso/temas/tema3/imgt10_tema_3.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
+              p.mt-2  Certificado en el que se garantiza la atención prehospitalaria por una IPS autorizada.
+              p.mt-2  Póliza de responsabilidad civil extracontractual conforme a los requisitos establecidos en el Artículo 26 de la Resolución 569 de 2014 (Secretaría Distrital de Gobierno, 2014)
+      .col-8.col-lg-3.mt-3
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/imgt5_tema_3.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              figure
+                img(src='@/assets/curso/temas/tema3/imgt5_tema_3.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
+              p.mt-2  Si el evento incluye manipulación de alimentos, se requiere listado del personal que preparará los mismos con su respectivo certificado del curso de manipulación de alimentos, examen clínico de uñas, frotis de garganta, coprológico.
     separador
     #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2 Personal logístico

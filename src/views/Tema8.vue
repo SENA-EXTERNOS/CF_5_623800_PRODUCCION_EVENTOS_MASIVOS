@@ -16,6 +16,53 @@
         figure
         img(src="@/assets/curso/temas/tema8/img1_tema_8.png", alt="alt")
 
+    .row.mt-3
+      .col-sm-6.col-xl-2.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 
+              p 
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img4_tema_8.svg')})`}")
+
+      .col-sm-6.col-xl-2.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img5_tema_8.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 
+              p El personal manipulador debe ser mayor de edad.
+      
+      .col-sm-6.col-xl-2.mb-4.mb-sm-0
+        .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img6_tema_8.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 
+              p 
+      .col-sm-6.col-xl-2.mb-4.mb-sm-0
+        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img7_tema_8.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 
+              p Se debe dejar limpio el sitio destinado para la pólvora.
+
+      .col-sm-6.col-xl-2.mb-4.mb-sm-0
+        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img8_tema_8.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 
+              p 
+      .col-sm-6.col-xl-2.mb-4.mb-sm-0
+        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img9_tema_8.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 
+              p 
     .row.mt-5
       .col.lg-12
         .bloque-texto-g.color-secundario2.p-3.p-sm-4.p-md-5.mt-5
@@ -43,14 +90,7 @@
       .col-lg-12
         figure.img3_t8
           img(src='@/assets/curso/temas/tema8/img3_tema_8.svg', alt='Texto que describa la imagen') 
-    
-    
-
-    .row.mt-5
-      .col-lg-10  
-        .cajon.color_anexo2.p-4
-          p.mb-0 Para un estudio completo del tema, recuerde explorar todos los recursos que se encuentran disponibles en este componente formativo, y que encuentra en el menú principal, tales como material complementario, actividad didáctica, glosario, entre otros. 
-          
+         
     .row.mt-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones
@@ -65,7 +105,12 @@
           .tarjeta.clr--gris.p-4(titulo="Fuegos grandes artificiales")
             p.mb-0 <b>Efectos especiales pirotécnicos: </b>
             p.mb-3 se usan en espacios donde la distancia de seguridad es limitada. Estos efectos se pueden aplicar en todo tipo de evento ya que cuenta con altos requisitos de seguridad y su combustión es limpia.
-
+    
+    .row.mt-5.justify-content-around.align-items-center
+      .col-lg-10  
+        .cajon.color_anexo2.p-4
+          p.mb-0 Para un estudio completo del tema, recuerde explorar todos los recursos que se encuentran disponibles en este componente formativo, y que encuentra en el menú principal, tales como material complementario, actividad didáctica, glosario, entre otros. 
+     
 
 
 </template>

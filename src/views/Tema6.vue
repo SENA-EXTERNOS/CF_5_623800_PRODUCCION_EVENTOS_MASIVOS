@@ -42,10 +42,80 @@
           .col-md-12  
             figure
               img(src='@/assets/curso/temas/tema6/img5_tema_6.svg', alt='Texto que describa la imagen')
-                         
+    
+    
+    separador
+    #t_6_2.titulo-segundo.color-acento-contenido
+      h2 6.2. Instalaciones eléctricas, sustancias inflamables y normativa de uso.                   
+
+    .row.mt-3
+      .col-lg-4
+        figure
+        img(src="@/assets/curso/temas/tema6/img6_tema_6.png", alt="alt")  
+      .col-lg-8
+          p.mb-3 Existen recintos que cuentan con instalaciones eléctricas certificadas y aptas para ser utilizadas en los eventos; sin embargo, hay otros, en los que se debe realizar una instalación temporal, ya que no cuentan con la misma en su interior. Éstas deben ser realizadas y verificadas por un técnico competente en el área, que se encuentre titulado en el campo o por un organismo de control. Dentro de los implementos que se pueden adecuar en un recinto que no cuente con una instalación eléctrica están: grupos electrógenos, cuadros de distribución, bancos de carga, SAI/UPS, transformadores, cableado, pasacables, depósito de combustible, iluminación, señalética y seguridad.
+
+    .row.mt-5
+      .col-lg-10
+         p.mb-3 Con respecto a las sustancias inflamables, es importante mencionar que los eventos, bien sea al aire libre o en espacios cerrados, no están exentos de ser generadores de emergencias con sólidos inflamables (compuestos de carbón, alcanfor o celuloide); líquidos (gasolina, pentano, metanol, acetona, etanol, pinturas, barniz) y gases inflamables (hidrógeno, metano, etano). Todo dependerá de la temática y de lo que se use, tanto para su montaje o adecuación, como para el desarrollo de los espectáculos o actividades centrales.
+      .col-lg-2
+        figure
+        img( width="50" src="@/assets/curso/temas/tema6/img7_tema_6.svg", alt="alt") 
+
+    .row.mt-5
+      .col-lg-12
+          p.mb-3 Por ello es importante que se tomen precauciones como:
 
 
-  
+    .row.mt-3
+      .col-sm-6.col-xl-2.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 
+              p Evaluar los riesgos existentes y peligros potenciales en el lugar del evento.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img8_tema_6.svg')})`}")
+
+      .col-sm-6.col-xl-2.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img9_tema_6.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 
+              p Capacitar a los empleados frente al uso de materiales peligrosos, los cuales deben estar correctamente marcados y almacenados.
+     
+      .col-sm-6.col-xl-2.mb-4.mb-sm-0
+        .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img10_tema_6.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 
+              p Los materiales peligrosos deben tener su etiqueta para que los empleados la puedan leer y asegurarse de manipularlos correctamente. 
+      
+      .col-sm-6.col-xl-2.mb-4.mb-sm-0
+        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img11_tema_6.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 
+              p Los empleados deben dar cuenta de fugas, derrames o contenedores en mal estado.
+     
+      .col-sm-6.col-xl-2.mb-4.mb-sm-0
+        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img12_tema_6.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 
+              p Las sustancias altamente inflamables deben almacenarse lejos de agentes oxidantes potentes y de materiales que puedan tener una combustión espontánea.
+     
+      .col-sm-6.col-xl-2.mb-4.mb-sm-0
+        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img13_tema_6.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h1 
+              p Contar con extintores de incendios y materiales inertes absorbentes como arena y tierra seca, para su utilización en situaciones de emergencia.
 </template>
 
 <script>

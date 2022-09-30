@@ -13,7 +13,7 @@
           p.mb-0 No importa la modalidad(virtual, híbrida, presencial); se debe accionar el equipo logístico para crear el mejor montaje que conlleve a la fluidez de la actividad. A continuación observe las características generales necesarias para crear el montaje de un evento:
       .col-lg-5
         figure
-        img(src="@/assets/curso/temas/tema1/img1_tema_1.svg", alt="alt")
+        img(src="@/assets/curso/temas/tema1/img1_tema_1.svg", alt="alt").imagen-decorativa-3
         
     .row.table-t1
       .col-lg-10
@@ -36,7 +36,22 @@
       .col-lg-8.parraf-t1  
         .cajon.color_anexo2.p-4
           p.mb-0 Al organizar una actividad y encontrarse en el proceso de búsqueda del lugar, es muy importante definir las necesidades que tendrá según la cantidad de público que espera y las actividades a desarrollar, de esta forma podrá contratar el sitio idóneo. En el siguiente Anexo podrá reconocer los tipos de montaje más usados.
-              
+
+    .tarjeta.color-primario.p-3.mb-5.mt-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/componentes/ej-02.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.mb-1 Anexo 1
+              p.text-small Tipos de montaje para eventos.
+            .col-sm-auto
+              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Anexo1_Tipo_de_montajes.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
+
+
     .row.mt-5
       .col.lg-12
         p.mb-0 Es importante considerar que los asistentes necesitan un espacio mínimo para moverse con soltura y comodidad.          
@@ -51,48 +66,54 @@
       .col.lg-12
         p.mb-0 Los siguientes son elementos a tener en cuenta para este propósito, información basada en  el Instituto Nacional de Seguridad y Salud en el Trabajo (INSST), O.A., M.P (2020) 
     
+    
     .row.mt-5
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 Pisos, pistas y pasarelas
-              p un buen piso puede transformar el diseño de un stand, escenario e inclusive dar otra cara a eventos en lugares abiertos. Las plataformas nos permiten adecuar los pisos, creando pistas y pasarelas con diferentes áreas y alturas.  La diversidad de estilos y materiales se adaptan según las características necesarias de cada evento
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tarjeta1_tema_1.png')})`}")
-
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+            .tarjeta-slide__contenido.tarjeta.p-4.p-xl-5
+              h3.text-center.tarjeta.color-acento-contenido-trj-t1 Pisos, pistas y pasarelas:
+              p.text-small.tarjeta.color-acento-contenido-trj-t1 un buen piso puede transformar el diseño de un stand, escenario e inclusive dar otra cara a eventos en lugares abiertos. Las plataformas nos permiten adecuar los pisos, creando pistas y pasarelas con diferentes áreas y alturas.  La diversidad de estilos y materiales se 
+              p.text-small.tarjeta.color-acento-contenido-trj-t1 adaptan según las características necesarias de cada evento
+            
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tarjeta2_tema_1.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
+              h3.text-center.tarjeta.color-acento-contenido-trj-t1 Stands: 
+              p.text-small.tarjeta.color-acento-contenido-trj-t1 sin importar su tamaño, debe contribuir con su diseño atractivo a comunicar el mensaje o propósito para lo que fue creado.
 
-      .col-sm-6.col-xl-3.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+      .col-sm-6.col-xl-4.mb-4.mb-sm-0
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tarjeta3_tema_1.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
+              h3.text-center.tarjeta.color-acento-contenido-trj-t1 Mobiliario:
+              p.text-small.tarjeta.color-acento-contenido-trj-t1 contar con mobiliario, paneles en diversos colores y accesorios versátiles y de calidad ayuda a generar impacto positivo.      
 
-      .col-sm-6.col-xl-3
-        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
+
+    .row.mt-5.justify-content-between.align-items-center
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tarjeta4_tema_1.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-    
-      .col-sm-6.col-xl-3
-        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
+              h3.text-center.tarjeta.color-acento-contenido-trj-t1 Carpas y techos :
+              p.text-small.tarjeta.color-acento-contenido-trj-t1 las carpas nos permiten además de la comodidad y seguridad de los invitados, transformar totalmente los espacios haciéndolos visualmente atractivos.
+      
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tarjeta5_tema_1.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-    
+              h3.text-center.tarjeta.color-acento-contenido-trj-t1 Tarimas para escenarios:
+              p.text-small.tarjeta.color-acento-contenido-trj-t1 diseñada adecuadamente se convierte en un punto de realce dentro de un evento, genera impacto y facilita la visualización para los invitados. 
+
+
     .row.mt-5
       .col.lg-12
         p.mb-0 <b>Montaje de eventos virtuales</b>

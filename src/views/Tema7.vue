@@ -13,8 +13,7 @@
         img(src="@/assets/curso/temas/tema7/img1_tema_7.svg", alt="alt") 
           
       .col-lg-7
-          p.mb-0 Un dron es un vehículo aéreo no tripulado, es decir, una máquina que vuela sin necesidad de un piloto; su trayectoria de vuelo se realiza con un control remoto o a través de un software que genera un vuelo controlado y sostenido. Su utilidad radica en el acceso que pueden tener a terrenos o espacios a distancias difíciles de lograr por el ser humano; una vez allí, puede obtener tomas de imágenes u otro tipo de datos, gracias a los dispositivos que puede transportar, como cámaras o sensores, sin que se generen riesgos para las personas. Se han convertido en una herramienta adecuada para los espectáculos y la creación de contenido.a pirotecnia y efectos especiales puede ser usada bajo la normatividad pertinente en Colombia para crear espectáculos en espacios abiertos o cerrados. Usualmente se usa para el cierre de matrimonios, eventos deportivos, cumpleaños, aniversarios, bautizos, graduaciones y quince años; lanzamientos de producto, fiestas de fin de año, eventos corporativos, entregas de premios, ferias, entre otros.
-    
+          p.mb-0 Un dron es un vehículo aéreo no tripulado, es decir, una máquina que vuela sin necesidad de un piloto; su trayectoria de vuelo se realiza con un control remoto o a través de un software que genera un vuelo controlado y sostenido. Su utilidad radica en el acceso que pueden tener a terrenos o espacios a distancias difíciles de lograr por el ser humano; una vez allí, puede obtener tomas de imágenes u otro tipo de datos, gracias a los dispositivos que puede transportar, como cámaras o sensores, sin que se generen riesgos para las personas. Se han convertido en una herramienta adecuada para los espectáculos y la creación de contenido.
     .row.mt-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones
