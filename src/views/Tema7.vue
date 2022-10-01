@@ -17,16 +17,16 @@
     .row.mt-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones
-          .tarjeta.clr--gris.p-4(titulo="Clase A")
+          .tarjeta.clr--gris.opciones-t8.p-4(titulo="Clase A")
             p.mb-0 <b>Clase A</b>
             p.mb-3 Usados con fines recreativos, su peso va desde 250 gramos hasta 25 kilogramos. No se exige una autorización para cada vuelo, requiere inscripción ante la Aerocivil. Tienen una velocidad de 50 millas por hora y pueden ser manejados hasta 500 metros.
             p.mb-3 La operación no puede efectuarse sobre público o una reunión de personas al aire libre. El vuelo deberá realizarse solamente en horas diurnas; o nocturnas siempre y cuando se realicen en zonas libres de obstáculos y de personas. (Acosta Argote, 2021)
           
-          .tarjeta.clr--gris.p-4(titulo="Clase B")
+          .tarjeta.clr--gris.opciones-t8.p-4(titulo="Clase B")
             p.mb-0 <b>Clase B</b>
             p.mb-3 Tienen un peso de hasta 150 kilogramos y se usan en actividades comerciales o profesionales. Son aeronaves con alcances mayores de hasta 100 millas por hora, y una operación de máximo 750 metros con referencia a la persona que lo maneja. Dentro de sus prohibiciones están: no transportar animales u arrojar objetos, salvo cuando se trata de aspersión agrícola o trabajos relacionados al campo; prohibido sobrevolar personas; no superar una distancia mínima de dos kilómetros de los aeropuertos; no sobrevolar edificios públicos ni bases militares. Se deben registrar dos personas en la Aerocivil: el que maneje y el que esté pendiente observando; también se pide adquirir seguros por accidentes que pueden involucrar a terceros.
          
-          .tarjeta.clr--gris.p-4(titulo="Clase C")
+          .tarjeta.clr--gris.opciones-t8.p-4(titulo="Clase C")
             p.mb-0 <b>Clase C</b>
             p.mb-3 Sirven para operaciones de transporte de mercancías ‘o personas y/o experimentales’. Su peso puede ser mayor a 150 kilogramos.(Acosta Argote, 2021)
     

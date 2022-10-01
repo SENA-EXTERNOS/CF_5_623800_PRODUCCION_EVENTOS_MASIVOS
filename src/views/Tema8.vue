@@ -23,7 +23,8 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h1 
-              p 
+              p.text.small Delimitar las áreas donde no podrán acceder los asistentes del evento,
+              p.text.small mientras se esté efectuando un espectáculo con pólvora.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img4_tema_8.svg')})`}")
 
       .col-sm-6.col-xl-2.mb-4.mb-xl-0
@@ -32,7 +33,7 @@
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img5_tema_8.svg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
               h1 
-              p El personal manipulador debe ser mayor de edad.
+              p.text.small El personal manipulador debe ser mayor de edad. 
       
       .col-sm-6.col-xl-2.mb-4.mb-sm-0
         .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
@@ -40,14 +41,15 @@
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img6_tema_8.svg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
               h1 
-              p 
+              p.text.small La delimitación de zonas, fechas y horarios dentro de las cuales podrá 
+              p.text.small realizarse el espectáculo. 
       .col-sm-6.col-xl-2.mb-4.mb-sm-0
         .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img7_tema_8.svg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
               h1 
-              p Se debe dejar limpio el sitio destinado para la pólvora.
+              p.text.small Se debe dejar limpio el sitio destinado para la pólvora.
 
       .col-sm-6.col-xl-2.mb-4.mb-sm-0
         .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
@@ -55,14 +57,18 @@
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img8_tema_8.svg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
               h1 
-              p 
+              p.text.small En algunos municipios se exige un certificado de bomberos en el cual 
+              p.text.small se especifican las condiciones que se deben tener en cuenta para 
+              p.text.small la realización de la quema.
       .col-sm-6.col-xl-2.mb-4.mb-sm-0
         .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img9_tema_8.svg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
               h1 
-              p 
+              p.text.small No se debe hacer quemas en lugares cerca de una reserva forestal, 
+              p.text.small ni junto a redes telefónicas o transformadores.
+            
     .row.mt-5
       .col.lg-12
         .bloque-texto-g.color-secundario2.p-3.p-sm-4.p-md-5.mt-5
@@ -71,16 +77,24 @@
           )
           .bloque-texto-g__texto-t1.p-4
             p.mb-0 Para ampliar más la información se pueden consultar las siguientes referencias normativas:
-            ul.lista-ul--color
-              li.mt-3 
-                i.fas.fa-check
-                | Incrementar la asistencia de participantes y ponentes que pueden estar ubicados en diferentes partes del mundo.
-              li 
-                i.fas.fa-check
-                | Reduce la incompatibilidad de horario y posibilita ver el evento en diferido.
-              li 
-                i.fas.fa-check
-                | Reducción de costos y valor de venta del evento.
+            p
+              ol.lista-ol--cuadro.mt-3
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 1
+                  | Ley 670 del 2001.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 2
+                  | Decreto 4481 de 2006.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 3
+                  | Nfpa 1600.
+                li 
+                  .lista-ol--cuadro__vineta
+                    span 4
+                  | Nfpa 704 marcación de vehículos
 
     .row.mt-5
       .col-lg-12
@@ -94,15 +108,15 @@
     .row.mt-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones
-          .tarjeta.clr--gris.p-4(titulo="Efectos especiales pirotécnicos: ")
+          .tarjeta.clr--gris.opciones-t8.p-4(titulo="Efectos especiales pirotécnicos: ")
             p.mb-0 <b>Efectos especiales pirotécnicos: </b>
             p.mb-3 se usan en espacios donde la distancia de seguridad es limitada. Estos efectos se pueden aplicar en todo tipo de evento ya que cuenta con altos requisitos de seguridad y su combustión es limpia.
 
-          .tarjeta.clr--gris.p-4(titulo="Fuegos artificiales")
+          .tarjeta.clr--gris.opciones-t8.p-4(titulo="Fuegos artificiales")
             p.mb-0 <b>Efectos especiales pirotécnicos: </b>
             p.mb-3 se usan en espacios donde la distancia de seguridad es limitada. Estos efectos se pueden aplicar en todo tipo de evento ya que cuenta con altos requisitos de seguridad y su combustión es limpia.
 
-          .tarjeta.clr--gris.p-4(titulo="Fuegos grandes artificiales")
+          .tarjeta.clr--gris.opciones-t8.p-4(titulo="Fuegos grandes artificiales")
             p.mb-0 <b>Efectos especiales pirotécnicos: </b>
             p.mb-3 se usan en espacios donde la distancia de seguridad es limitada. Estos efectos se pueden aplicar en todo tipo de evento ya que cuenta con altos requisitos de seguridad y su combustión es limpia.
     

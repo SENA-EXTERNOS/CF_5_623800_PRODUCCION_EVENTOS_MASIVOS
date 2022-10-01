@@ -22,28 +22,9 @@
 
     .row
       .col-lg-12
-          p Dentro de las estructuras más usadas en eventos se encuentran:: 
+          p Dentro de las estructuras más usadas en eventos se encuentran:
+      
 
-    .tarjeta.tarjeta--azul.p-4
-      SlyderA(tipo="b")
-        .row  
-          .col-md-12
-            figure
-              img(src='@/assets/curso/temas/tema6/img2_tema_6.svg', alt='Texto que describa la imagen')
-        .row
-          .col-md-12
-            figure
-              img(src='@/assets/curso/temas/tema6/img3_tema_6.svg', alt='Texto que describa la imagen')
-        .row
-          .col-md-12  
-            figure
-              img(src='@/assets/curso/temas/tema6/img4_tema_6.svg', alt='Texto que describa la imagen')
-        .row
-          .col-md-12  
-            figure
-              img(src='@/assets/curso/temas/tema6/img5_tema_6.svg', alt='Texto que describa la imagen')
-    
-    
     separador
     #t_6_2.titulo-segundo.color-acento-contenido
       h2 6.2. Instalaciones eléctricas, sustancias inflamables y normativa de uso.                   

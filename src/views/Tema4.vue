@@ -12,63 +12,59 @@
           p.mb-3 La seguridad es muy importante durante todas las etapas de un evento, y debe amparar tanto al equipo de colaboradores, infraestructura, equipos y mobiliario como a los participantes. Aunque más adelante tendrá la oportunidad de estudiar este tema con mayor profundidad, es necesario nombrar algunos de los riesgos más comunes.
           p.mb-3 Según su naturaleza los riesgos se pueden clasificar así:   
     
-    .row.justify-content-center.mb-5
-      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema4/img12_tema_4.svg", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3 Médicos
-            p.mb-0 Estampidas
-            p.mb-0 Riñas 
-            p.mb-0 Infartos
-            p.mb-0 Sobredosis
-            p.mb-0 Parto 
-            p.mb-0 Ahogo
-            p.mb-0 Intoxicación
+    .row.mt-5.justify-content-center
+      .col-8.col-lg-3.mt-3
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor  
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img1-t3_tema_4.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              figure.justify-content-center 
+                img(src='@/assets/curso/temas/tema4/img1-o1_tema_4.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
+                p.text-center.tarjeta.color-acento-contenido-trj-t1 Riñas 
+                p.text-center.tarjeta.color-acento-contenido-trj-t1 Infartos
+                p.text-center.tarjeta.color-acento-contenido-trj-t1 Sobredosis
+                p.text-center.tarjeta.color-acento-contenido-trj-t1 Parto
+                p.text-center.tarjeta.color-acento-contenido-trj-t1 Ahogo 
+                p.text-center.tarjeta.color-acento-contenido-trj-t1 Intoxicación
 
-      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema4/img13_tema_4.svg", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3 Protección Civil
-            p.mb-0 Incendio
-            p.mb-0 Explosión
-            p.mb-0 Derrumbe
-            p.mb-0 Inundación
-            p.mb-0 Tormenta  
+      .col-8.col-lg-3.mt-3
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img1-t3_tema_4.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              figure
+                img(src='@/assets/curso/temas/tema4/img1-o1_tema_4.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
+              p.text-center.tarjeta.color-acento-contenido-trj-t1 Incendio
+              p.text-center.tarjeta.color-acento-contenido-trj-t1 Explosión
+              p.text-center.tarjeta.color-acento-contenido-trj-t1 Derrumbe
+              p.text-center.tarjeta.color-acento-contenido-trj-t1 Inundación
+              p.text-center.tarjeta.color-acento-contenido-trj-t1 Tormenta
 
-      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema4/img14_tema_4.svg", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3 Seguridad
-            p.mb-0 Disparo de arma
-            p.mb-0 Violencia sexual
-            p.mb-0 Homicidio
-            p.mb-0 Secuestro
-            p.mb-0 Asalto
+      .col-8.col-lg-3.mt-3
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img1-t3_tema_4.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              figure
+                img(src='@/assets/curso/temas/tema4/img1-o1_tema_4.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
+              p.text-center.tarjeta.color-acento-contenido-trj-t1 Disparo de arma
+              p.text-center.tarjeta.color-acento-contenido-trj-t1 Violencia sexual
+              p.text-center.tarjeta.color-acento-contenido-trj-t1 Homicidio
+              p.text-center.tarjeta.color-acento-contenido-trj-t1 Secuestro
+              p.text-center.tarjeta.color-acento-contenido-trj-t1 Asalto
 
-      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema4/img15_tema_4.svg", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3 Servicios Públicos
-            p.mb-0 Árbol en riesgo
-            p.mb-0 de caer
-            p.mb-0 Cortocircuito
-            p.mb-0 Cables colgando
-   
-
-           
-
+      .col-8.col-lg-3.mt-3
+        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img1-t3_tema_4.svg')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              figure
+                img(src='@/assets/curso/temas/tema4/img1-o1_tema_4.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
+              p.text-center.tarjeta.color-acento-contenido-trj-t1 Árbol en riesgo 
+              p.text-center.tarjeta.color-acento-contenido-trj-t1 de caer
+              p.text-center.tarjeta.color-acento-contenido-trj-t1 Cortocircuito
+              p.text-center.tarjeta.color-acento-contenido-trj-t1 Cables colgando
 
     separador
     #t_4_1.titulo-segundo.color-acento-contenido
@@ -80,6 +76,13 @@
         img(src="@/assets/curso/temas/tema4/img1_tema_4.svg", alt="alt")  
       .col-lg-8
           p.mb-3 El Ministerio de Trabajo Colombiano (2012) en su Resolución 1409 de 2012, menciona que el trabajo en alturas es “toda actividad que realiza un trabajador que ocasione la suspensión y/o desplazamiento, en el que se vea expuesto a un riesgo de caída, mayor 2.0 metros, con relación del plano de los pies del trabajador al plano horizontal inferior más cercano a él” (p. 9). Este tipo de labor es una de las principales causantes de muerte o lesiones graves debido a los múltiples riesgos que conlleva su ejecución, como por ejemplo caídas de tejados, de escaleras y de alguna superficie mal instalada o frágil.
+          
+    .row
+      .col-lg-8
+          p.mb-3 Los principales riesgos en alturas que se pueden presentar son: manipulación de escaleras (fijas, de mano, etc.); ingreso a pozos, zanjas, aberturas; daños en plataformas (aberturas, desniveles, hoyos etc.); ascenso de materiales de gran tamaño (tuberías grandes, cadenas etc.); mal uso de máquinas, plataformas y equipos de elevación; trabajar en superficies inestables como algunos tejados, plataformas, etc.; trabajos con bordes desprotegidos (lozas, plataformas, etc.) 
+      .col-lg-4    
+        figure
+        img(src="@/assets/curso/temas/tema4/img2_tema_4.svg", alt="alt")  
 
     .row.mt-5
       .col.lg-12
