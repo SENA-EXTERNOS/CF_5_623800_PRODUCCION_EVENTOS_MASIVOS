@@ -9,15 +9,21 @@
 
     .row
       .col-lg-12
-          p.mb-3 La seguridad es muy importante durante todas las etapas de un evento, y debe amparar tanto al equipo de colaboradores, infraestructura, equipos y mobiliario como a los participantes. Aunque más adelante tendrá la oportunidad de estudiar este tema con mayor profundidad, es necesario nombrar algunos de los riesgos más comunes.
-          p.mb-3 Según su naturaleza los riesgos se pueden clasificar así:   
-    
+        .bloque-texto-b.color-primario-t4.p-4
+          .bloque-texto-b__texto
+            p.mb-3 La seguridad es muy importante durante todas las etapas de un evento, y debe amparar tanto al equipo de colaboradores, infraestructura, equipos y mobiliario como a los participantes. Aunque más adelante tendrá la oportunidad de estudiar este tema con mayor profundidad, es necesario nombrar algunos de los riesgos más comunes.
+            br
+            br
+            p.mb-5 Según su naturaleza los riesgos se pueden clasificar así:           
+
+
+        
     .row.mt-5.justify-content-center
       .col-8.col-lg-3.mt-3
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor  
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img1-t3_tema_4.svg')})`}")
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img1-t1_tema_4.svg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
               figure.justify-content-center 
                 img(src='@/assets/curso/temas/tema4/img1-o1_tema_4.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
@@ -31,7 +37,7 @@
       .col-8.col-lg-3.mt-3
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img1-t3_tema_4.svg')})`}")
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img1-t2_tema_4.svg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
               figure
                 img(src='@/assets/curso/temas/tema4/img1-o1_tema_4.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
@@ -57,7 +63,7 @@
       .col-8.col-lg-3.mt-3
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img1-t3_tema_4.svg')})`}")
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img1-t4_tema_4.svg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
               figure
                 img(src='@/assets/curso/temas/tema4/img1-o1_tema_4.svg', alt='Texto que describa la imagen').img.tarjeta-tema-1
@@ -76,13 +82,7 @@
         img(src="@/assets/curso/temas/tema4/img1_tema_4.svg", alt="alt")  
       .col-lg-8
           p.mb-3 El Ministerio de Trabajo Colombiano (2012) en su Resolución 1409 de 2012, menciona que el trabajo en alturas es “toda actividad que realiza un trabajador que ocasione la suspensión y/o desplazamiento, en el que se vea expuesto a un riesgo de caída, mayor 2.0 metros, con relación del plano de los pies del trabajador al plano horizontal inferior más cercano a él” (p. 9). Este tipo de labor es una de las principales causantes de muerte o lesiones graves debido a los múltiples riesgos que conlleva su ejecución, como por ejemplo caídas de tejados, de escaleras y de alguna superficie mal instalada o frágil.
-          
-    .row
-      .col-lg-8
           p.mb-3 Los principales riesgos en alturas que se pueden presentar son: manipulación de escaleras (fijas, de mano, etc.); ingreso a pozos, zanjas, aberturas; daños en plataformas (aberturas, desniveles, hoyos etc.); ascenso de materiales de gran tamaño (tuberías grandes, cadenas etc.); mal uso de máquinas, plataformas y equipos de elevación; trabajar en superficies inestables como algunos tejados, plataformas, etc.; trabajos con bordes desprotegidos (lozas, plataformas, etc.) 
-      .col-lg-4    
-        figure
-        img(src="@/assets/curso/temas/tema4/img2_tema_4.svg", alt="alt")  
 
     .row.mt-5
       .col.lg-12
@@ -235,10 +235,18 @@
 
 <script>
 export default {
-  name: 'Introduccion',
+  name: 'Tema4',
   data: () => ({
     // variables de vue
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

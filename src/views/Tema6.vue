@@ -23,7 +23,10 @@
     .row
       .col-lg-12
           p Dentro de las estructuras más usadas en eventos se encuentran:
-      
+    
+    
+    .bg--gradientBlue.p-5.mb-4
+      SlyderB(:datos="datosSlyderEjemplo")   
 
     separador
     #t_6_2.titulo-segundo.color-acento-contenido
@@ -50,7 +53,7 @@
 
     .row.mt-3
       .col-sm-6.col-xl-2.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+        .tarjeta.tarjeta-slide.arriba.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
@@ -59,7 +62,7 @@
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img8_tema_6.svg')})`}")
 
       .col-sm-6.col-xl-2.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+        .tarjeta.tarjeta-slide.abajo.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img9_tema_6.svg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
@@ -67,7 +70,7 @@
               p Capacitar a los empleados frente al uso de materiales peligrosos, los cuales deben estar correctamente marcados y almacenados.
      
       .col-sm-6.col-xl-2.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+        .tarjeta.tarjeta-slide.derecha.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img10_tema_6.svg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
@@ -101,10 +104,43 @@
 
 <script>
 export default {
-  name: 'Introduccion',
+  name: 'Tema6',
   data: () => ({
-    // variables de vue
+    datosSlyderEjemplo: [
+      {
+        //titulo: 'Torres',
+        //texto: '',
+        imagen: require('@/assets/curso/temas/tema6/img2_tema_6.svg'),
+        leyendaImagen: 'Torres',
+      },
+      {
+        //titulo: 'Plataformas',
+        //texto: '',
+        imagen: require('@/assets/curso/temas/tema6/img3_tema_6.svg'),
+        leyendaImagen: 'Plataformas',
+      },
+      {
+        //titulo: 'Cubiertas',
+        //texto: '',
+        imagen: require('@/assets/curso/temas/tema6/img4_tema_6.svg'),
+        leyendaImagen: 'Cubiertas',
+      },
+      {
+        //titulo: 'Gradas',
+        texto: '',
+        imagen: require('@/assets/curso/temas/tema6/img5_tema_6.svg'),
+        leyendaImagen: 'Gradas',
+      },
+    ],
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 
