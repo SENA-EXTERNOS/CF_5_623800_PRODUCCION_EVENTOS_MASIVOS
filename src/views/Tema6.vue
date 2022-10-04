@@ -25,8 +25,42 @@
           p Dentro de las estructuras más usadas en eventos se encuentran:
     
     
-    .bg--gradientBlue.p-5.mb-4
-      SlyderB(:datos="datosSlyderEjemplo")   
+    .slyderB_bg_01.px-5.py-3.mb-5
+      SlyderA(tipo="b")
+        .row.justify-content-center.align-items-center.my-lg-4
+          .col-lg-12.mb-4.mb-lg-0.pt-5.pt-0.position-relative
+            .number(data-number="01")
+            figure
+              img(src='@/assets/curso/temas/tema6/img2_tema_6.svg')
+              figcaption <p><b>Torres</b></p>
+
+        .row.justify-content-center.align-items-center.my-lg-4
+          .col-lg-12.mb-4.mb-lg-0.pt-5.pt-0.position-relative
+            .number(data-number="02")
+              h4.ps-4 
+              p.ps-4.mb-0  
+              figure
+              img(src='@/assets/curso/temas/tema6/img3_tema_6.svg')
+              figcaption <p><b>Plataformas</b></p>
+
+
+        .row.justify-content-center.align-items-center.my-lg-4
+          .col-lg-12.mb-4.mb-lg-0.pt-5.pt-0.position-relative
+            .number(data-number="03")
+              h4.ps-4 
+              p.ps-4.mb-0
+              figure
+              img(src='@/assets/curso/temas/tema6/img4_tema_6.svg')
+              figcaption <p><b>Cubiertas</b></p> 
+
+        .row.justify-content-center.align-items-center.my-lg-4
+          .col-lg-12.mb-4.mb-lg-0.pt-5.pt-0.position-relative
+            .number(data-number="04")
+              p.ps-4.mb-0 
+              figure
+              img(src='@/assets/curso/temas/tema6/img5_tema_6.svg')
+              figcaption <p><b>Gradas</b></p> 
+
 
     separador
     #t_6_2.titulo-segundo.color-acento-contenido
@@ -35,7 +69,7 @@
     .row.mt-3
       .col-lg-4
         figure
-        img(src="@/assets/curso/temas/tema6/img6_tema_6.png", alt="alt")  
+        img(src="@/assets/curso/temas/tema6/img6_tema_6.png", alt="alt").imagen-decorativa-8  
       .col-lg-8
           p.mb-3 Existen recintos que cuentan con instalaciones eléctricas certificadas y aptas para ser utilizadas en los eventos; sin embargo, hay otros, en los que se debe realizar una instalación temporal, ya que no cuentan con la misma en su interior. Éstas deben ser realizadas y verificadas por un técnico competente en el área, que se encuentre titulado en el campo o por un organismo de control. Dentro de los implementos que se pueden adecuar en un recinto que no cuente con una instalación eléctrica están: grupos electrógenos, cuadros de distribución, bancos de carga, SAI/UPS, transformadores, cableado, pasacables, depósito de combustible, iluminación, señalética y seguridad.
 

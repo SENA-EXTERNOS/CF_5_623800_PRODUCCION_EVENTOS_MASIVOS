@@ -13,7 +13,7 @@
           p.mb-0 No importa la modalidad(virtual, híbrida, presencial); se debe accionar el equipo logístico para crear el mejor montaje que conlleve a la fluidez de la actividad. A continuación observe las características generales necesarias para crear el montaje de un evento:
       .col-lg-5
         figure
-        img(src="@/assets/curso/temas/tema1/img1_tema_1.svg", alt="alt").imagen-decorativa-3
+        img(src="@/assets/curso/temas/tema1/img1_tema_1.svg", alt="alt").imagen-decorativa-2
         
     .row.table-t1
       .col-lg-10
@@ -30,12 +30,11 @@
               
     .row.mt-5
       .col-lg-4              
-        img(src="@/assets/curso/temas/tema1/img3_tema_1.svg", alt="alt")
+        img(src="@/assets/curso/temas/tema1/img3_tema_1.svg", alt="alt").imagen-decorativa-3
       .col-lg-8
-         p.mb-0 Los eventos presenciales se desarrollan para presentar un producto o servicio, captar y fidelizar clientes o desarrollar alguna actividad lúdica para empleados. En ellos, todos los componentes se encuentran en un mismo espacio físico, existiendo contacto directo entre las personas, la cercanía y el ‘cara a cara’ son dos potentes herramientas de comunicación y conexión.
-      .col-lg-8.parraf-t1  
-        .cajon.color_anexo2.p-4
-          p.mb-0 Al organizar una actividad y encontrarse en el proceso de búsqueda del lugar, es muy importante definir las necesidades que tendrá según la cantidad de público que espera y las actividades a desarrollar, de esta forma podrá contratar el sitio idóneo. En el siguiente Anexo podrá reconocer los tipos de montaje más usados.
+        p.mb-0 Los eventos presenciales se desarrollan para presentar un producto o servicio, captar y fidelizar clientes o desarrollar alguna actividad lúdica para empleados. En ellos, todos los componentes se encuentran en un mismo espacio físico, existiendo contacto directo entre las personas, la cercanía y el ‘cara a cara’ son dos potentes herramientas de comunicación y conexión. 
+          .cajon.color_anexo2.p-4.mt-3
+            p.mb-0 Al organizar una actividad y encontrarse en el proceso de búsqueda del lugar, es muy importante definir las necesidades que tendrá según la cantidad de público que espera y las actividades a desarrollar, de esta forma podrá contratar el sitio idóneo. En el siguiente Anexo podrá reconocer los tipos de montaje más usados.
 
     .tarjeta.color-primario.p-3.mb-5.mt-5
       .row.justify-content-around.align-items-center
@@ -95,23 +94,24 @@
               p.text-small.tarjeta.color-acento-contenido-trj-t1 contar con mobiliario, paneles en diversos colores y accesorios versátiles y de calidad ayuda a generar impacto positivo.      
 
 
-    .row.mt-5.justify-content-between.align-items-center
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0.mt-5
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tarjeta4_tema_1.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
               h3.text-center.tarjeta.color-acento-contenido-trj-t1 Carpas y techos :
-              p.text-small.tarjeta.color-acento-contenido-trj-t1 las carpas nos permiten además de la comodidad y seguridad de los invitados, transformar totalmente los espacios haciéndolos visualmente atractivos.
+              p.text-small.tarjeta.color-acento-contenido-trj-t1 las carpas nos permiten además de la comodidad y seguridad de los invitados, 
+              p.text-small.tarjeta.color-acento-contenido-trj-t1  transformar totalmente los espacios haciéndolos visualmente atractivos.
       
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-sm-6.col-xl-4.mb-4.mb-sm-0.mt-5
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tarjeta5_tema_1.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
               h3.text-center.tarjeta.color-acento-contenido-trj-t1 Tarimas para escenarios:
-              p.text-small.tarjeta.color-acento-contenido-trj-t1 diseñada adecuadamente se convierte en un punto de realce dentro de un evento, genera impacto y facilita la visualización para los invitados. 
+              p.text-small.tarjeta.color-acento-contenido-trj-t1 diseñada adecuadamente se convierte en un punto de realce dentro de un evento, 
+              p.text-small.tarjeta.color-acento-contenido-trj-t1 genera impacto y facilita la visualización para los invitados. 
 
 
     .row.mt-5
@@ -194,6 +194,22 @@
       .row(numero="2" titulo="Paso 2")
         .col-md-12.mb-4.mb-md-0
           p.text-small  Identificar la plataforma que mejor se adapte a los objetivos del evento. Descargue el siguiente documento:     
+         
+          .tarjeta.color-acento-botones.p-3.mb-5
+            .row.justify-content-around.align-items-center
+              .col-3.col-sm-2.col-lg-1
+                img(src="@/assets/curso/temas/tema1/icon6_tema_1.svg")
+              .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    h3.mb-1 Anexo 2
+                    p.text-small Plataformas para conocer las plataformas más usadas. 
+                  .col-sm-auto
+                    a.boton.color-acento-contenido(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      span Descargar
+                      i.fas.fa-file-download
+        
+      
       .row(numero="3" titulo="Paso 3")
         .col-md-12.mb-4.mb-md-0
           p.text-small Promocionar el evento con herramientas de comunicación digital de acuerdo al tipo de público: si el evento es enfocado al personal interno de una compañía, los canales a usar podrían ser los emails corporativos, periódico de la organización, intranet, grupos de redes sociales, etc.
@@ -210,13 +226,12 @@
 
     .row.mt-5
       .col-lg-4              
-        img(src="@/assets/curso/temas/tema1/img7_tema_1.svg", alt="alt")
+        img(src="@/assets/curso/temas/tema1/img7_tema_1.svg", alt="alt").imagen-decorativa-4
       .col-lg-8
          p.mb-0 Son eventos “mixtos” que involucran la participación de asistentes al evento de manera presencial y una audiencia o público que se conecta de manera digital, mediante una transmisión en vivo “Streaming”. 
          p.mb-3 De forma presencial, normalmente, el número de asistentes es reducido, mientras en lo virtual la participación puede ser mayor ya que  se usan plataformas audiovisuales y tecnológicas a través de las cuales las personas se conectan desde diferentes ciudades de origen.
-      .col-lg-8.parraf-t1  
-        .cajon.color_anexo2.p-4
-          p.mb-0 <em>Streaming:</em> cualquier contenido de medios, ya sea en vivo o grabado, que se puede disfrutar en computadoras, celulares, tabletas, a través de Internet y en tiempo real. Los podcasts, webcasts, las películas, los programas de TV y los videos musicales son tipos comunes de contenido de streaming.
+          .cajon.color_anexo2.p-4
+            p.mb-0 <em>Streaming:</em> cualquier contenido de medios, ya sea en vivo o grabado, que se puede disfrutar en computadoras, celulares, tabletas, a través de Internet y en tiempo real. Los podcasts, webcasts, las películas, los programas de TV y los videos musicales son tipos comunes de contenido de streaming.
 
     .row.mt-5
       .col-lg-9             
@@ -240,7 +255,7 @@
 
     .row.mt-5
       .col-lg-3
-        img(src="@/assets/curso/temas/tema1/img11_tema_1.svg", alt="alt")
+        img(src="@/assets/curso/temas/tema1/img11_tema_1.svg", alt="alt").
       .col-lg-9
          p.mb-5 Sin embargo, la logística se multiplica cuando al organizar un evento de este tipo, pues es necesario contar con los elementos para un encuentro presencial y los gastos que esto implica. También se debe  sumar la infraestructura necesaria de un evento online y las herramientas de ‘realidad virtual’. Para lo anterior es importante la creación de un contenido de calidad, que sea dinámico, con el que se pueda interactuar en todo momento. Dentro de sus ventajas tenemos:     
 
