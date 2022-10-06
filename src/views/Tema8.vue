@@ -16,59 +16,50 @@
         figure
         img(src="@/assets/curso/temas/tema8/img1_tema_8.png", alt="alt")
 
-    .row.mt-3
-      .col-sm-6.col-xl-2.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 
-              p.text.small Delimitar las áreas donde no podrán acceder los asistentes del evento,
-              p.text.small mientras se esté efectuando un espectáculo con pólvora.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img4_tema_8.svg')})`}")
+    SlyderF(columnas="col-lg-6 col-xl-4").mt-5
+      .tarjeta.color-acento-botones.t3.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema8/img4_tema_8.svg' alt='AvatarTop')
+        h2.text-center 
+        p.text-center Delimitar las áreas donde no podrán acceder los asistentes del evento, mientras se esté efectuando un espectáculo con pólvora.
 
-      .col-sm-6.col-xl-2.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.abajo.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img5_tema_8.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 
-              p.text.small El personal manipulador debe ser mayor de edad. 
+      .tarjeta.color-acento-botones.t3.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema8/img5_tema_8.svg' alt='AvatarTop')
+        h2.text-center 
+        p.text-center El personal manipulador debe ser mayor de edad.
+
+      .tarjeta.color-acento-botones.t3.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema8/img6_tema_8.svg' alt='AvatarTop')
+        h2.text-center  
+        p.text-center La delimitación de zonas, fechas y horarios dentro de las cuales podrá realizarse el espectáculo.
+
+      .tarjeta.color-acento-botones.t3.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema8/img7_tema_8.svg' alt='AvatarTop')
+        h2.text-center 
+        p.text-center Se debe dejar limpio el sitio destinado para la pólvora.
+
+      .tarjeta.color-acento-botones.t3.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema8/img8_tema_8.svg' alt='AvatarTop')
+        h2.text-center 
+        p.text-center En algunos municipios se exige un certificado de bomberos en el cual se especifican las condiciones que se deben tener en cuenta para la realización de la quema.
+
+      .tarjeta.color-acento-botones.t3.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema8/img9_tema_8.svg' alt='AvatarTop')
+        h2.text-center 
+        p.text-center No se debe hacer quemas en lugares cerca de una reserva forestal, ni junto a redes telefónicas o transformadores.
+
       
-      .col-sm-6.col-xl-2.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.derecha.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img6_tema_8.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 
-              p.text.small La delimitación de zonas, fechas y horarios dentro de las cuales podrá 
-              p.text.small realizarse el espectáculo. 
-      .col-sm-6.col-xl-2.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img7_tema_8.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 
-              p.text.small Se debe dejar limpio el sitio destinado para la pólvora.
-
-      .col-sm-6.col-xl-2.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img8_tema_8.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 
-              p.text.small En algunos municipios se exige un certificado de bomberos en el cual 
-              p.text.small se especifican las condiciones que se deben tener en cuenta para 
-              p.text.small la realización de la quema.
-      .col-sm-6.col-xl-2.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img9_tema_8.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 
-              p.text.small No se debe hacer quemas en lugares cerca de una reserva forestal, 
-              p.text.small ni junto a redes telefónicas o transformadores.
-            
     .row.mt-5
       .col.lg-12
         .bloque-texto-g.color-secundario2.p-3.p-sm-4.p-md-5.mt-5

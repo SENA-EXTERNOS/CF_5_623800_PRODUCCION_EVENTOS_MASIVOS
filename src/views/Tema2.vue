@@ -9,8 +9,12 @@
 
     .row
       .col-lg-12
-        p.mb-0 El render es una imagen o maqueta digital en tercera dimensión, que presenta de manera realista el stand o escenario que tendrá el evento. Permite proponer opciones de diseño, recursos viables a usar y un resultado final; varía dependiendo del presupuesto, las herramientas técnicas existentes y el tiempo con el que cuente el cliente. Es un perfecto aliado para tomar decisiones y realizar un proceso colaborativo entre el organizador y la empresa contratante.
-        p.mt-3 Como ejemplo, se le invita a visualizar el siguiente video: fuente: Render para eventos-3D
+        .bloque-texto-b.color-primario-tema2.p-4
+          .bloque-texto-b__texto
+            p.mb-0 El render es una imagen o maqueta digital en tercera dimensión, que presenta de manera realista el stand o escenario que tendrá el evento. Permite proponer opciones de diseño, recursos viables a usar y un resultado final; varía dependiendo del presupuesto, las herramientas técnicas existentes y el tiempo con el que cuente el cliente. Es un perfecto aliado para tomar decisiones y realizar un proceso colaborativo entre el organizador y la empresa contratante.
+            <br>
+            <br>
+            p.mt-3 Como ejemplo, se le invita a visualizar el siguiente video: fuente: Render para eventos-3D
 
     .row.mt-5
       figure
@@ -20,11 +24,12 @@
 
     .row.mt-5
       .col-lg-12
-        p.mb-0 Por su parte, el rider se puede definir como un documento que especifica los requerimientos técnicos y la logística necesaria para poder llevar a cabo shows especiales dentro de los eventos, los cuales son fundamentales en algunos de ellos, ya que funcionan como parte de la comunicación o entretenimiento. Por ejemplo, una ambientación musical para una reunión, un show de danza, teatro, un concierto, entre otros.
-
-    .row.mt-5
-      .col-lg-12
-        p.mb-0 Los siguientes aspectos se deben especificar  en este documento, teniendo en cuenta información  suministrada por el cliente y por el organizador del evento.
+        .bloque-texto-b.color-primario-tema21.p-4
+          .bloque-texto-b__texto
+            p.mb-0 Por su parte, el rider se puede definir como un documento que especifica los requerimientos técnicos y la logística necesaria para poder llevar a cabo shows especiales dentro de los eventos, los cuales son fundamentales en algunos de ellos, ya que funcionan como parte de la comunicación o entretenimiento. Por ejemplo, una ambientación musical para una reunión, un show de danza, teatro, un concierto, entre otros.
+            <br>
+            <br>
+            p.mb-0 Los siguientes aspectos se deben especificar  en este documento, teniendo en cuenta información  suministrada por el cliente y por el organizador del evento.
 
     .row
       .col-lg-5

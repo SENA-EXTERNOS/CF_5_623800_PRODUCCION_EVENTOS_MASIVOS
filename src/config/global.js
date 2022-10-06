@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Montajes y normatividad de los eventos',
     descripcionCurso:
       'Todo evento requiere de una correcta planificación y organización a fin de evitar cualquier inconveniente durante y después del mismo. Una de las actividades esenciales es el montaje de todas las estructuras necesarias para la realización de lo planeado, por lo cual una buena gestión es clave para poder llevar a cabo las actividades de una manera correcta',
-    //imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
   menuPrincipal: {
@@ -183,16 +183,33 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'La seguridad en eventos masivos',
+      referencia:
+        'Sebastián Gabriel, R y Betania Soledad, C (2018). 2018 La seguridad en eventos masivos. Control de admisión y permanencia en el Estadio Ciudad de La Plata. Facultad de Humanidades y Ciencias de la Educación. Universidad Nacional de la Plata. ',
+      tipo: 'Artículo',
+      link: 'http://sedici.unlp.edu.ar/handle/10915/81531',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Montaje de stands para eventos y ferias',
+      referencia:
+        'Franco Camargo, G (2003). Asesoría en exhibición y montaje de stands para eventos y ferias de Artesanías de Colombia. AA. Cuadernos de Diseño.',
+      tipo: 'Artículo',
+      link: 'https://repositorio.artesaniasdecolombia.com.co/handle/001/165',
+    },
+    {
+      tema: 'Planeación de logística',
+      referencia:
+        'Malo Tinizaray, P y Mora Jácome, V (2022). Planeación de logística y recolección de datos de eventos masivos para la ciudad de Loja. Universidad Técnica Particular de Loja.',
+      tipo: 'Artículo',
+      link: 'http://dspace.utpl.edu.ec/handle/20.500.11962/29584',
+    },
+    {
+      tema: 'Restricciones y Normatividad',
+      referencia:
+        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial (2006). Resolución 627 de 2006.',
+      tipo: 'Resolución',
+      link:
+        'https://www.mincit.gov.co/ministerio/normograma-sig/procesos-de-apoyo/gestion-de-recursos-fisicos/resoluciones/resolucion-627-de-2006.aspx',
     },
   ],
   glosario: [

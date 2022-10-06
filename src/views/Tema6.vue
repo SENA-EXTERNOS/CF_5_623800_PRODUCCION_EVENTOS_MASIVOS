@@ -25,7 +25,7 @@
           p Dentro de las estructuras más usadas en eventos se encuentran:
     
     
-    .slyderB_bg_01.px-5.py-3.mb-5
+    .px-5.py-3.mb-5
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.my-lg-4
           .col-lg-12.mb-4.mb-lg-0.pt-5.pt-0.position-relative
@@ -84,89 +84,69 @@
       .col-lg-12
           p.mb-3 Por ello es importante que se tomen precauciones como:
 
+    .slyderB_bg_01.px-5.py-3.mb-5
+      SlyderA(tipo="b")
+        .row.justify-content-center.align-items-center.my-lg-4
+          .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative
+            .number(data-number="01")
+              h4.ps-4 
+              p.ps-4.mb-0  Evaluar los riesgos existentes y peligros potenciales en el lugar del evento.
+          .col-6.col-lg-4
+            figure
+              img(src='@/assets/curso/temas/tema6/img8_tema_6.svg')
 
-    .row.mt-3
-      .col-sm-6.col-xl-2.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 
-              p Evaluar los riesgos existentes y peligros potenciales en el lugar del evento.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img8_tema_6.svg')})`}")
+        .row.justify-content-center.align-items-center.my-lg-4
+          .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative
+            .number(data-number="02")
+              h4.ps-4 
+              p.ps-4.mb-0 Capacitar a los empleados frente al uso de materiales peligrosos, los cuales deben estar correctamente marcados y almacenados.
+          .col-6.col-lg-4
+            figure
+              img(src='@/assets/curso/temas/tema6/img9_tema_6.svg')
 
-      .col-sm-6.col-xl-2.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.abajo.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img9_tema_6.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 
-              p Capacitar a los empleados frente al uso de materiales peligrosos, los cuales deben estar correctamente marcados y almacenados.
-     
-      .col-sm-6.col-xl-2.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.derecha.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img10_tema_6.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 
-              p Los materiales peligrosos deben tener su etiqueta para que los empleados la puedan leer y asegurarse de manipularlos correctamente. 
-      
-      .col-sm-6.col-xl-2.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img11_tema_6.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 
-              p Los empleados deben dar cuenta de fugas, derrames o contenedores en mal estado.
-     
-      .col-sm-6.col-xl-2.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img12_tema_6.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 
-              p Las sustancias altamente inflamables deben almacenarse lejos de agentes oxidantes potentes y de materiales que puedan tener una combustión espontánea.
-     
-      .col-sm-6.col-xl-2.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img13_tema_6.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 
-              p Contar con extintores de incendios y materiales inertes absorbentes como arena y tierra seca, para su utilización en situaciones de emergencia.
+        .row.justify-content-center.align-items-center.my-lg-4
+          .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative
+            .number(data-number="03")
+              h4.ps-4 
+              p.ps-4.mb-0 Los materiales peligrosos deben tener su etiqueta para que los empleados la puedan leer y asegurarse de manipularlos correctamente. 
+          .col-6.col-lg-4
+            figure
+              img(src='@/assets/curso/temas/tema6/img10_tema_6.svg')
+
+        .row.justify-content-center.align-items-center.my-lg-4
+          .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative
+            .number(data-number="04")
+              p.ps-4.mb-0 son fáciles de implementar y es posible recolectar una gran cantidad de información de los clientes. Se pueden usar preguntas con opción múltiple de respuesta ya que son fáciles de cuantificar y poder expresar la información a través de gráficos. 
+          .col-6.col-lg-4
+            figure
+              img(src='@/assets/curso/temas/tema6/img11_tema_6.svg')
+   
+
+        .row.justify-content-center.align-items-center.my-lg-4
+          .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative
+            .number(data-number="04")
+              p.ps-4.mb-0 Las sustancias altamente inflamables deben almacenarse lejos de agentes oxidantes potentes y de materiales que puedan tener una combustión espontánea.
+          .col-6.col-lg-4
+            figure
+              img(src='@/assets/curso/temas/tema6/img12_tema_6.svg')
+
+
+        .row.justify-content-center.align-items-center.my-lg-4
+          .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative
+            .number(data-number="04")
+              p.ps-4.mb-0 Contar con extintores de incendios y materiales inertes absorbentes como arena y tierra seca, para su utilización en situaciones de emergencia.
+          .col-6.col-lg-4
+            figure
+              img(src='@/assets/curso/temas/tema6/img13_tema_6.svg')
+
+
+
 </template>
 
 <script>
 export default {
   name: 'Tema6',
-  data: () => ({
-    datosSlyderEjemplo: [
-      {
-        //titulo: 'Torres',
-        //texto: '',
-        imagen: require('@/assets/curso/temas/tema6/img2_tema_6.svg'),
-        leyendaImagen: 'Torres',
-      },
-      {
-        //titulo: 'Plataformas',
-        //texto: '',
-        imagen: require('@/assets/curso/temas/tema6/img3_tema_6.svg'),
-        leyendaImagen: 'Plataformas',
-      },
-      {
-        //titulo: 'Cubiertas',
-        //texto: '',
-        imagen: require('@/assets/curso/temas/tema6/img4_tema_6.svg'),
-        leyendaImagen: 'Cubiertas',
-      },
-      {
-        //titulo: 'Gradas',
-        texto: '',
-        imagen: require('@/assets/curso/temas/tema6/img5_tema_6.svg'),
-        leyendaImagen: 'Gradas',
-      },
-    ],
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

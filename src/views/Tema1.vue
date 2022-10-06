@@ -65,54 +65,48 @@
       .col.lg-12
         p.mb-0 Los siguientes son elementos a tener en cuenta para este propósito, información basada en  el Instituto Nacional de Seguridad y Salud en el Trabajo (INSST), O.A., M.P (2020) 
     
-    
     .row.mt-5
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tarjeta1_tema_1.png')})`}")
-            .tarjeta-slide__contenido.tarjeta.p-4.p-xl-5
-              h3.text-center.tarjeta.color-acento-contenido-trj-t1 Pisos, pistas y pasarelas:
-              p.text-small.tarjeta.color-acento-contenido-trj-t1 un buen piso puede transformar el diseño de un stand, escenario e inclusive dar otra cara a eventos en lugares abiertos. Las plataformas nos permiten adecuar los pisos, creando pistas y pasarelas con diferentes áreas y alturas.  La diversidad de estilos y materiales se 
-              p.text-small.tarjeta.color-acento-contenido-trj-t1 adaptan según las características necesarias de cada evento
-            
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tarjeta2_tema_1.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h3.text-center.tarjeta.color-acento-contenido-trj-t1 Stands: 
-              p.text-small.tarjeta.color-acento-contenido-trj-t1 sin importar su tamaño, debe contribuir con su diseño atractivo a comunicar el mensaje o propósito para lo que fue creado.
-
-      .col-sm-6.col-xl-4.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tarjeta3_tema_1.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h3.text-center.tarjeta.color-acento-contenido-trj-t1 Mobiliario:
-              p.text-small.tarjeta.color-acento-contenido-trj-t1 contar con mobiliario, paneles en diversos colores y accesorios versátiles y de calidad ayuda a generar impacto positivo.      
-
-
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0.mt-5
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tarjeta4_tema_1.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h3.text-center.tarjeta.color-acento-contenido-trj-t1 Carpas y techos :
-              p.text-small.tarjeta.color-acento-contenido-trj-t1 las carpas nos permiten además de la comodidad y seguridad de los invitados, 
-              p.text-small.tarjeta.color-acento-contenido-trj-t1  transformar totalmente los espacios haciéndolos visualmente atractivos.
-      
-      .col-sm-6.col-xl-4.mb-4.mb-sm-0.mt-5
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tarjeta5_tema_1.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h3.text-center.tarjeta.color-acento-contenido-trj-t1 Tarimas para escenarios:
-              p.text-small.tarjeta.color-acento-contenido-trj-t1 diseñada adecuadamente se convierte en un punto de realce dentro de un evento, 
-              p.text-small.tarjeta.color-acento-contenido-trj-t1 genera impacto y facilita la visualización para los invitados. 
-
+      .col-lg-12.order-2.order-lg-1
+        TabsA.color-acento-botones
+          .tarjeta.clr--gris.opciones-t8.p-4(titulo="Pisos, pistas y pasarelas")
+            .row
+              .col-lg-4
+                  p.mb-0 <b>Pisos, pistas y pasarelas</b>
+                  img(src="@/assets/curso/temas/tema1/tarjeta1_tema_1.svg", alt="alt")
+              .col-lg-8    
+                   p.mb-3 Un buen piso puede transformar el diseño de un stand, escenario e inclusive dar otra cara a eventos en lugares abiertos. Las plataformas nos permiten adecuar los pisos, creando pistas y pasarelas con diferentes áreas y alturas.  La diversidad de estilos y materiales se adaptan según las características necesarias de cada evento.
+         
+          .tarjeta.clr--gris.opciones-t8.p-4(titulo="Stands")
+            .row
+              .col-lg-4
+                  p.mb-0 <b>Stands</b>
+                  img(src="@/assets/curso/temas/tema1/tarjeta2_tema_1.png", alt="alt")
+              .col-lg-8    
+                  p.mb-3 Sin importar su tamaño, debe contribuir con su diseño atractivo a comunicar el mensaje o propósito para lo que fue creado.  
+         
+          .tarjeta.clr--gris.opciones-t8.p-4(titulo="Mobiliario")
+            .row
+              .col-lg-4
+                  p.mb-0 <b>Mobiliario</b>
+                  img(src="@/assets/curso/temas/tema1/tarjeta3_tema_1.png", alt="alt")
+              .col-lg-8    
+                  p.mb-3 Contar con mobiliario, paneles en diversos colores y accesorios versátiles y de calidad ayuda a generar impacto positivo.
+         
+          .tarjeta.clr--gris.opciones-t8.p-4(titulo="Carpas y techos")
+            .row
+              .col-lg-4
+                  p.mb-0 <b>Carpas y techos</b>
+                  img(src="@/assets/curso/temas/tema1/tarjeta4_tema_1.png", alt="alt")
+              .col-lg-8    
+                  p.mb-3 Las carpas nos permiten además de la comodidad y seguridad de los invitados, transformar totalmente los espacios haciéndolos visualmente atractivos.
+          
+          .tarjeta.clr--gris.opciones-t8.p-4(titulo="Tarimas para escenarios")
+            .row
+              .col-lg-4
+                  p.mb-0 <b>Tarimas para escenarios</b>
+                  img(src="@/assets/curso/temas/tema1/tarjeta5_tema_1.png", alt="alt")
+              .col-lg-8    
+                  p.mb-3 Diseñada adecuadamente se convierte en un punto de realce dentro de un evento, genera impacto y facilita la visualización para los invitados. 
 
     .row.mt-5
       .col.lg-12
@@ -138,11 +132,8 @@
             i.fas.fa-check
             | Reducción de costos y valor de venta del evento.
 
-    .row.mt-5
-      .col-lg-2
-        img( width="50" height="100"  src="@/assets/curso/temas/tema1/icon1_tema_1.svg", alt="alt")
-
-      .col-lg-10.parraf-t2  
+    .row.mt-3
+      .col-lg-12 
         p.mb-3 Los eventos virtuales se desarrollan a través de plataformas online que sirven para generar una conexión virtual entre los asistentes, eliminando las barreras físicas y reduciendo  los gastos en comparación con los eventos presenciales. Al igual que en otro tipo de eventos, en éste los participantes pueden igualmente vivir una experiencia innovadora. 
         p.mb-0 A continuación, presentamos algunas de las tipologías de eventos que se pueden desarrollar de forma virtual, sin embargo, todos los formatos tradicionales se pueden convertir a este formato con organización y creatividad. 
 
@@ -302,7 +293,6 @@
           p.mt-3 Según LinkedIn (2021), dentro de la modalidad de eventos digitales e híbridos hay 3 tipos de escenarios principales : Escenario Virtual. Hace referencia al escenario que los participantes que estarán conectados al evento de manera digital, van a visualizar.
           p.mt-3 Escenario led. Un escenario con pantallas led puede ser un poco más tradicional pues se utiliza de manera frecuente en eventos presenciales. Sin embargo, en una modalidad híbrida este tipo de escenario le permitirá tener mayor consistencia entre la información que visualizará el público presencial y el virtual.
           p.mt-3 Escenario chroma Key. utiliza un fondo comúnmente verde, donde se proyectará un escenario o fondo virtual que previamente deberá definir. Es un escenario muy versátil y puede aportar un ambiente mucho más creativo para el desarrollo del evento. (párr. 29)
-
 
 
 

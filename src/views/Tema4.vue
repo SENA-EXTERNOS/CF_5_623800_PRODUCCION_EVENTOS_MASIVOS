@@ -190,22 +190,22 @@
           figure.ptos-hot-t4
             img(src='@/assets/curso/temas/tema4/img10_tema_4.svg', alt='Texto que describa la imagen')
             
-        .tarjeta.tarjeta.color-acento-botones-t4.p-3(x="52%" y="10%" numero="1")
-          p.tex-ptos_t4 <b>Ojos y cara:</b> gafas de seguridad, careta de seguridad, gafas de soldadura
-        .tarjeta.tarjeta.color-acento-botones-t4.p-3(x="44%" y="20%" numero="2")
-          p.tex-ptos_t4 <b>Nariz y boca para proteger el aparato respiratorio:</b> respirador autocontenido, respirador purificante o tapabocas desechable. 
-        .tarjeta.tarjeta.color-acento-botones-t4.p-3(x="56%" y="24%" numero="3")
-          p.tex-ptos_t4 <b>Oídos:</b> se utilizan cuando los niveles de ruido sobrepasan los 80 decibeles. Los elementos para usar son: premoldeados, moldeados y orejeras.
-        .tarjeta.tarjeta.color-acento-botones-t4.p-3(x="62%" y="59%" numero="4")
-          p.tex-ptos_t4 <b>Manos:</b> guantes de plástico o aluminio, guantes dieléctricos y de materiales especiales para productos químicos.
-        .tarjeta.tarjeta.color-acento-botones-t4.p-3(x="59%" y="92%" numero="5")
-          p.tex-ptos_t4 <b>Pies:</b> se usan botas plásticas y zapatos con suela antideslizante; botas con punta de acero o botas elaboradas en cuero que protegen frente a descargas eléctricas y son llamas dieléctrica.  
-        .tarjeta.tarjeta.color-acento-botones-t4.p-3(x="45%" y="35%" numero="6")
-          p.tex-ptos_t4 <b>Piernas, tórax, caderas:</b> Arnés con una resistencia de hasta 2.500 kg y con puntos de anclaje metálicos forjados y mínimo 4 distribuidos así: Uno (1) posterior, uno (1) ventral (que no debe llegar a la cara del trabajador en caso de caída), y dos (2) laterales para posicionamiento.
-        .tarjeta.tarjeta.color-acento-botones-t4.p-3(x="54%" y="41%" numero="7")
-          p.tex-ptos_t4 <b>Línea de posicionamiento:</b> le permite al trabajador ubicarse frente a la zona de trabajo y mantener las manos libres, ya que este elemento rodea la estructura y se fija al arnés, proporcionando estabilidad (Sumatec, 2019) 
-        .tarjeta.tarjeta.color-acento-botones-t4.p-3(x="50%" y="50%" numero="8")
-          p.tex-ptos_t4 <b>Salva caídas troll o arrestador:</b> es el elemento deslizante en un solo sentido, con doble traba de seguridad, que le permite asegurarse a la línea de vida que recorre la ruta de ascenso y descenso y que se conecta al arnés. Debe detener la caída del trabajador, mediante bloqueo automático sobre la línea de vida (Sumatec, 2019)   
+        .tarjeta.tarjeta.color-acento-botones-t3.p-3(x="52%" y="10%" numero="1")
+          p.heading_t4  <b>Ojos y cara:</b> gafas de seguridad, careta de seguridad, gafas de soldadura
+        .tarjeta.tarjeta.color-acento-botones-t3.p-3(x="44%" y="20%" numero="2")
+          p.heading_t4 <b>Nariz y boca para proteger el aparato respiratorio:</b> respirador autocontenido, respirador purificante o tapabocas desechable. 
+        .tarjeta.tarjeta.color-acento-botones-t3.p-3(x="56%" y="24%" numero="3")
+          p.heading_t4 <b>Oídos:</b> se utilizan cuando los niveles de ruido sobrepasan los 80 decibeles. Los elementos para usar son: premoldeados, moldeados y orejeras.
+        .tarjeta.tarjeta.color-acento-botones-t3.p-3(x="62%" y="59%" numero="4")
+          p.heading_t4 <b>Manos:</b> guantes de plástico o aluminio, guantes dieléctricos y de materiales especiales para productos químicos.
+        .tarjeta.tarjeta.color-acento-botones-t3.p-3(x="59%" y="92%" numero="5")
+          p.heading_t4 <b>Pies:</b> se usan botas plásticas y zapatos con suela antideslizante; botas con punta de acero o botas elaboradas en cuero que protegen frente a descargas eléctricas y son llamas dieléctrica.  
+        .tarjeta.tarjeta.color-acento-botones-t3.p-3(x="45%" y="35%" numero="6")
+          p.heading_t4 <b>Piernas, tórax, caderas:</b> Arnés con una resistencia de hasta 2.500 kg y con puntos de anclaje metálicos forjados y mínimo 4 distribuidos así: Uno (1) posterior, uno (1) ventral (que no debe llegar a la cara del trabajador en caso de caída), y dos (2) laterales para posicionamiento.
+        .tarjeta.tarjeta.color-acento-botones-t3.p-3(x="54%" y="41%" numero="7")
+          p.heading_t4 <b>Línea de posicionamiento:</b> le permite al trabajador ubicarse frente a la zona de trabajo y mantener las manos libres, ya que este elemento rodea la estructura y se fija al arnés, proporcionando estabilidad (Sumatec, 2019) 
+        .tarjeta.tarjeta.color-acento-botones-t3.p-3(x="50%" y="50%" numero="8")
+          p.heading_t4 <b>Salva caídas troll o arrestador:</b> es el elemento deslizante en un solo sentido, con doble traba de seguridad, que le permite asegurarse a la línea de vida que recorre la ruta de ascenso y descenso y que se conecta al arnés. Debe detener la caída del trabajador, mediante bloqueo automático sobre la línea de vida (Sumatec, 2019)   
     
     separador
     #t_4_4.titulo-segundo.color-acento-contenido
