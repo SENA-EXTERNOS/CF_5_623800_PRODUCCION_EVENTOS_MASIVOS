@@ -4,7 +4,7 @@
       <rect id="Rectángulo_44114" data-name="Rectángulo 44114" width="284.927" height="234.528" fill="none"/>
     </clipPath>
   </defs>
-  <g id="Grupo_132241" data-name="Grupo 132241" transform="translate(-180.207 -514.979)">
+  <g id="Grupo_132218" data-name="Grupo 132218" transform="translate(-180.207 -514.979)">
     <g id="Grupo_132121" data-name="Grupo 132121" transform="translate(180.207 514.979)">
       <g id="Grupo_132115" data-name="Grupo 132115" transform="translate(0 0)">
         <rect id="Rectángulo_44113" data-name="Rectángulo 44113" width="304" height="33.139" transform="translate(0.072)" fill="#fff"/>
@@ -136,8 +136,7 @@
       </g>
     </g>
     <g id="Grupo_132139" data-name="Grupo 132139" transform="translate(-6.793 -10)">
-      <path id="Trazado_189392" data-name="Trazado 189392" d="M5,0H245a5,5,0,0,1,5,5V41a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(214 762)" fill="#8c6df2"/>
-      <text id="Médicos" transform="translate(335 792)" fill="#fff" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-34.664" y="0">Médicos</tspan></text>
+      <rect id="Rectángulo_41167" data-name="Rectángulo 41167" width="250" height="46" rx="5" transform="translate(214 762)" fill="#8c6df2"/>
     </g>
   </g>
 </svg>

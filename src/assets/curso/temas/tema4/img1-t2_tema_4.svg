@@ -28,7 +28,7 @@
       <stop offset="0.802" stop-color="#d4c9bd"/>
     </linearGradient>
   </defs>
-  <g id="Grupo_132238" data-name="Grupo 132238" transform="translate(-492.207 -515.818)">
+  <g id="Grupo_132219" data-name="Grupo 132219" transform="translate(-492.207 -515.818)">
     <g id="Grupo_132123" data-name="Grupo 132123" transform="translate(492.207 515.818)">
       <g id="Grupo_132124" data-name="Grupo 132124" transform="translate(0 0)">
         <g id="Grupo_132124-2" data-name="Grupo 132124">
@@ -314,7 +314,6 @@
     </g>
     <g id="Grupo_132124-3" data-name="Grupo 132124" transform="translate(519.207 752)">
       <rect id="Rectángulo_41169" data-name="Rectángulo 41169" width="250" height="46" rx="5" fill="#8c6df2"/>
-      <text id="Protección_Civil" data-name="Protección Civil" transform="translate(56 11)" fill="#fff" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="19">Protección Civil</tspan></text>
     </g>
   </g>
 </svg>
