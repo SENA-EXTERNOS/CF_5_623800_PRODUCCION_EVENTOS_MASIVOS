@@ -87,7 +87,7 @@
       .col.lg-12
         .bloque-texto-g.color-secundario2.p-3.p-sm-4.p-md-5.mt-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img3_tema_4.svg')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img3_tema_4.png')})`}"
           )
           .bloque-texto-g__texto-t1.p-4
             p.mb-0 De manera general, el organizador de eventos que va a contratar a una empresa externa para el trabajo en alturas, debe constatar algunos aspectos como:
@@ -135,7 +135,7 @@
           .row
             .col-auto
               figure(data-aos="zoom-in")
-                img(src='@/assets/curso/temas/tema4/img5_tema_4.svg', alt='').img125
+                img(src='@/assets/curso/temas/tema4/img5_tema_4.png', alt='').img125
             .col-lg
               h3 Resolución 1248 de 202
               p Medidas transitorias frente a la capacitación y entrenamiento para trabajo seguro en alturas, durante la emergencia sanitaria del COVID 19. Fue expedida por el Ministerio de Trabajo
@@ -145,12 +145,12 @@
               p Se amplía la vigencia por 1 mes del certificado para trabajo seguro en alturas, a partir de la superación de la emergencia sanitaria por el COVID 19.
             .col-auto
               figure(data-aos="zoom-in")
-                img(src='@/assets/curso/temas/tema4/img6_tema_4.svg', alt='').img125
+                img(src='@/assets/curso/temas/tema4/img6_tema_4.png', alt='').img125
 
           .row
             .col-auto
               figure(data-aos="zoom-in")
-                img(src='@/assets/curso/temas/tema4/img7_tema_4.svg', alt='').img125
+                img(src='@/assets/curso/temas/tema4/img7_tema_4.png', alt='').img125
             .col-lg
               h3 Resolución 1178 de 2017
               p Establece los requisitos técnicos y de seguridad que deben cumplir los proveedores que prestan servicios de capacitación y entrenamiento en protección contra caídas en trabajo en alturas.
@@ -161,12 +161,12 @@
               p Modifica resolución 1409 de 2012 sobre los perfiles que deben cumplir el coordinador y el entrenador de trabajo en alturas. 
             .col-auto
               figure(data-aos="zoom-in")
-                img(src='@/assets/curso/temas/tema4/img8_tema_4.svg', alt='').img125
+                img(src='@/assets/curso/temas/tema4/img8_tema_4.png', alt='').img125
 
           .row
             .col-auto
               figure(data-aos="zoom-in")
-                img(src='@/assets/curso/temas/tema4/img9_tema_4.svg', alt='').img125
+                img(src='@/assets/curso/temas/tema4/img9_tema_4.png', alt='').img125
             .col-lg
               h3 Resolución 1409 de 2012
               p Expide el reglamento de seguridad para protección contra caídas en trabajos en alturas.
@@ -213,7 +213,7 @@
     .row.mt-5
       .col-lg-4
         figure
-        img(src="@/assets/curso/temas/tema4/img11_tema_4.svg", alt="alt")  
+        img(src="@/assets/curso/temas/tema4/img11_tema_4.png", alt="alt")  
       .col-lg-8.mb-5.mb-lg-0
         .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto

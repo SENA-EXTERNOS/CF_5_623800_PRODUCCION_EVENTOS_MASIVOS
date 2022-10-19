@@ -13,7 +13,7 @@
           p.mb-0 No importa la modalidad(virtual, híbrida, presencial); se debe accionar el equipo logístico para crear el mejor montaje que conlleve a la fluidez de la actividad. A continuación observe las características generales necesarias para crear el montaje de un evento:
       .col-lg-5
         figure
-        img(src="@/assets/curso/temas/tema1/img1_tema_1.svg", alt="alt").imagen-decorativa-2
+        img(src="@/assets/curso/temas/tema1/img1_tema_1.png", alt="alt").imagen-decorativa-2
         
     .row.table-t1
       .col-lg-10
@@ -60,7 +60,7 @@
 
     .row.mt-5
       .col.lg-4
-        img(src="@/assets/curso/temas/tema1/img4_tema_1.svg", alt="alt")
+        img(src="@/assets/curso/temas/tema1/img4_tema_1.png", alt="alt")
     .row.mt-5
       .col.lg-12
         p.mb-0 Los siguientes son elementos a tener en cuenta para este propósito, información basada en  el Instituto Nacional de Seguridad y Salud en el Trabajo (INSST), O.A., M.P (2020) 
@@ -117,7 +117,7 @@
 
     .bloque-texto-g.color-secundario2.p-3.p-sm-4.p-md-5.mt-5
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img5_tema_1.svg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img5_tema_1.png')})`}"
       )
       .bloque-texto-g__texto-t1.p-4
         p.mb-0 <b>Estas son sus ventajas:</b> 
@@ -204,10 +204,10 @@
       .row(numero="3" titulo="Paso 3")
         .col-md-12.mb-4.mb-md-0
           p.text-small Promocionar el evento con herramientas de comunicación digital de acuerdo al tipo de público: si el evento es enfocado al personal interno de una compañía, los canales a usar podrían ser los emails corporativos, periódico de la organización, intranet, grupos de redes sociales, etc.
-      .row(numero="3" titulo="Paso 4")
+      .row(numero="4" titulo="Paso 4")
         .col-md-12.mb-4.mb-md-0
           p.text-small Entregar instrucciones e información clara del evento: la plataforma en la que se desarrollará; los links o claves de acceso; el cronograma o agenda; los contactos para dudas o requerimientos y  relacionar las reglas de comportamiento, como momentos en los que se pueden hacer preguntas entre otros aspectos.
-      .row(numero="3" titulo="Paso 5")
+      .row(numero="5" titulo="Paso 5")
         .col-md-12.mb-4.mb-md-0
           p.text-small Seguimiento a los participantes  a través de encuestas de percepción del evento, entre otros. Envío de materiales de apoyo como grabaciones de video o audio y cualquier otra información útil, dentro de las 48 horas siguientes a la finalización.
 
@@ -217,7 +217,7 @@
 
     .row.mt-5
       .col-lg-4              
-        img(src="@/assets/curso/temas/tema1/img7_tema_1.svg", alt="alt").imagen-decorativa-4
+        img(src="@/assets/curso/temas/tema1/img7_tema_1.svg", alt="alt")
       .col-lg-8
          p.mb-0 Son eventos “mixtos” que involucran la participación de asistentes al evento de manera presencial y una audiencia o público que se conecta de manera digital, mediante una transmisión en vivo “Streaming”. 
          p.mb-3 De forma presencial, normalmente, el número de asistentes es reducido, mientras en lo virtual la participación puede ser mayor ya que  se usan plataformas audiovisuales y tecnológicas a través de las cuales las personas se conectan desde diferentes ciudades de origen.

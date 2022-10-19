@@ -39,16 +39,6 @@
             img(src='@/assets/curso/temas/tema3/icon2_tema_3.svg' alt='AvatarTop')
         h2.text-center 
         p.text-center Contrato del sitio del evento
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
 
       .tarjeta.color-acento-botones.t3.p-4
         .row.justify-content-center.mb-3
@@ -56,12 +46,7 @@
             img(src='@/assets/curso/temas/tema3/icon3_tema_3.svg' alt='AvatarTop')
         h2.text-center 
         p.text-center Carta emitida por la empresa que genera la boletería, indicando el nombre de cada localidad, su aforo y el valor.
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+
 
       .tarjeta.color-acento-botones.t3.p-4
         .row.justify-content-center.mb-3

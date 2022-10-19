@@ -34,7 +34,7 @@
       .col.lg-12
         .bloque-texto-g.color-secundario2.p-3.p-sm-4.p-md-5.mt-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema7/img2_tema_7.svg')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema7/img2_tema_7.png')})`}"
           )
           .bloque-texto-g__texto-t1.p-4
             p.mb-3 <b>Normatividad Reglamento Aeronáutico Colombiano</b> 
