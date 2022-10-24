@@ -31,87 +31,64 @@
     .row.mt-5
       .col-lg-12
         p De manera general, se pueden mencionar algunas como:  
-    
-    SlyderF(columnas="col-lg-6 col-xl-4").mt-5
-      .tarjeta.color-acento-botones.t3.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema3/icon2_tema_3.svg' alt='AvatarTop')
-        h2.text-center 
-        p.text-center Contrato del sitio del evento
+   
+   
+    SlyderF.mb-5.mt-5(columnas="col-lg-6 col-xl-4")
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/tema3/icon2_tema_3.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.t3.p-4.mt-5
+          p.text-center Contrato del sitio del evento
 
-      .tarjeta.color-acento-botones.t3.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema3/icon3_tema_3.svg' alt='AvatarTop')
-        h2.text-center 
-        p.text-center Carta emitida por la empresa que genera la boletería, indicando el nombre de cada localidad, su aforo y el valor.
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/tema3/icon3_tema_3.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.t3.p-4.mt-5
+          p.text-center Carta emitida por la empresa que genera la boletería, indicando el nombre de cada localidad, su aforo y el valor.
 
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/tema3/icon4_tema_3.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.t3.p-4.mt-5
+          p.text-center Documentos de identificación del solicitante Certificado de existencia y representación legal y cédula de ciudadanía del representante legal para personas jurídicas. 
+          p.text-center Cédula de ciudadanía o de extranjería para personas naturales. Registro de Información Tributaria - RIT
 
-      .tarjeta.color-acento-botones.t3.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema3/icon4_tema_3.svg' alt='AvatarTop')
-        h2.text-center  
-        p.text-center Documentos de identificación del solicitante Certificado de existencia y representación legal y cédula de ciudadanía del representante legal para personas jurídicas. 
-        p.text-center Cédula de ciudadanía o de extranjería para personas naturales. Registro de Información Tributaria - RIT
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/tema3/icon5_tema_3.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.t3.p-4.mt-5
+           p.text-center Contar con un Plan de Gestión del Riesgo o plan de contingencia para la prevención y mitigación de riesgos, que responda a las características particulares del escenario. Este plan también debe incluir las medidas sanitarias requeridas según el espacio del evento (Decreto 1276 del 2020).
+      
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/tema3/icon6_tema_3.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.t3.p-4.mt-5
+           p.text-center Mapa del sitio con vías de evacuación.
 
-      .tarjeta.color-acento-botones.t3.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema3/icon5_tema_3.svg' alt='AvatarTop')
-        h2.text-center 
-        p.text-center Contar con un Plan de Gestión del Riesgo o plan de contingencia para la prevención y mitigación de riesgos, que responda a las características particulares del escenario. Este plan también debe incluir las medidas sanitarias requeridas según el espacio del evento (Decreto 1276 del 2020).
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/tema3/icon7_tema_3.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.t3.p-4.mt-5
+           p.text-center Cumplir con las normas referentes a la intensidad auditiva, horario y ubicación, señalados por la entidad competente del respectivo municipio.
 
-      .tarjeta.color-acento-botones.t3.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema3/icon6_tema_3.svg' alt='AvatarTop')
-        h2.text-center 
-        p.text-center Mapa del sitio con vías de evacuación.
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/tema3/icon8_tema_3.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.t3.p-4.mt-5
+           p.text-center Contar con un Plan de Gestión del Riesgo o plan de contingencia para la prevención y mitigación de riesgos, que responda a las características particulares del escenario. Este plan también debe incluir las medidas sanitarias requeridas según el espacio del evento (Decreto 1276 del 2020).
+      
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/tema3/icon9_tema_3.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.t3.p-4.mt-5
+           p.text-center Tener las constancias o comprobantes de pago de los derechos de autor y conexos, cuando en el espectáculo público se ejecuten obras causantes de dichos pagos.
 
-      .tarjeta.color-acento-botones.t3.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema3/icon7_tema_3.svg' alt='AvatarTop')
-        h2.text-center 
-        p.text-center Cumplir con las normas referentes a la intensidad auditiva, horario y ubicación, señalados por la entidad competente del respectivo municipio.
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/tema3/icon10_tema_3.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.t3.p-4.mt-5
+           p.text-center Carta de autorización de bomberos
 
-      .tarjeta.color-acento-botones.t3.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema3/icon8_tema_3.svg' alt='AvatarTop')
-        h2.text-center 
-        p.text-center Contar con un Plan de Gestión del Riesgo o plan de contingencia para la prevención y mitigación de riesgos, que responda a las características particulares del escenario. Este plan también debe incluir las medidas sanitarias requeridas según el espacio del evento (Decreto 1276 del 2020).
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/tema3/icon11_tema_3.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.t3.p-4.mt-5
+           p.text-center Certificado en el que se garantiza la atención prehospitalaria por una IPS autorizada. Póliza de responsabilidad civil extracontractual conforme a los requisitos establecidos en el Artículo 26 de la Resolución 569 de 2014 (Secretaría Distrital de Gobierno, 2014)
 
-      .tarjeta.color-acento-botones.t3.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema3/icon9_tema_3.svg' alt='AvatarTop')
-        h2.text-center 
-        p.text-center Tener las constancias o comprobantes de pago de los derechos de autor y conexos, cuando en el espectáculo público se ejecuten obras causantes de dichos pagos.
-
-      .tarjeta.color-acento-botones.t3.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema3/icon10_tema_3.svg' alt='AvatarTop')
-        h2.text-center 
-        p.text-center Carta de autorización de bomberos
-
-      .tarjeta.color-acento-botones.t3.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema3/icon11_tema_3.svg' alt='AvatarTop')
-        h2.text-center 
-        p.text-center Certificado en el que se garantiza la atención prehospitalaria por una IPS autorizada.
-        p.text-center Póliza de responsabilidad civil extracontractual conforme a los requisitos establecidos en el Artículo 26 de la Resolución 569 de 2014 (Secretaría Distrital de Gobierno, 2014)
-
-      .tarjeta.color-acento-botones.t3.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema3/icon12_tema_3.svg' alt='AvatarTop')
-        h2.text-center 
-        p.text-center Si el evento incluye manipulación de alimentos, se requiere listado del personal que preparará los mismos con su respectivo certificado del curso de manipulación de alimentos, examen clínico de uñas, frotis de garganta, coprológico.
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/tema3/icon12_tema_3.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.t3.p-4.mt-5
+           p.text-center Si el evento incluye manipulación de alimentos, se requiere listado del personal que preparará los mismos con su respectivo certificado del curso de manipulación de alimentos, examen clínico de uñas, frotis de garganta, coprológico.
 
     separador
     #t_3_2.titulo-segundo.color-acento-contenido

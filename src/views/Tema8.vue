@@ -16,50 +16,39 @@
         figure
         img(src="@/assets/curso/temas/tema8/img1_tema_8.png", alt="alt")
 
-    SlyderF(columnas="col-lg-6 col-xl-4").mt-5
-      .tarjeta.color-acento-botones.t3.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema8/img4_tema_8.svg' alt='AvatarTop')
-        h2.text-center 
-        p.text-center Delimitar las áreas donde no podrán acceder los asistentes del evento, mientras se esté efectuando un espectáculo con pólvora.
 
-      .tarjeta.color-acento-botones.t3.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema8/img5_tema_8.svg' alt='AvatarTop')
-        h2.text-center 
-        p.text-center El personal manipulador debe ser mayor de edad.
+    SlyderF.mb-5.mt-5(columnas="col-lg-6 col-xl-4")
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/tema8/img4_tema_8.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.t3.p-4.mt-5
+          p.text-center Delimitar las áreas donde no podrán acceder los asistentes del evento, mientras se esté efectuando un espectáculo con pólvora.
 
-      .tarjeta.color-acento-botones.t3.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema8/img6_tema_8.svg' alt='AvatarTop')
-        h2.text-center  
-        p.text-center La delimitación de zonas, fechas y horarios dentro de las cuales podrá realizarse el espectáculo.
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/tema8/img5_tema_8.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.t3.p-4.mt-5
+          p.text-center El personal manipulador debe ser mayor de edad.
 
-      .tarjeta.color-acento-botones.t3.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema8/img7_tema_8.svg' alt='AvatarTop')
-        h2.text-center 
-        p.text-center Se debe dejar limpio el sitio destinado para la pólvora.
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/tema8/img6_tema_8.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.t3.p-4.mt-5
+          p.text-center La delimitación de zonas, fechas y horarios dentro de las cuales podrá realizarse el espectáculo.
 
-      .tarjeta.color-acento-botones.t3.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema8/img8_tema_8.svg' alt='AvatarTop')
-        h2.text-center 
-        p.text-center En algunos municipios se exige un certificado de bomberos en el cual se especifican las condiciones que se deben tener en cuenta para la realización de la quema.
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/tema8/img7_tema_8.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.t3.p-4.mt-5
+           p.text-center Se debe dejar limpio el sitio destinado para la pólvora.
+      
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/tema8/img8_tema_8.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.t3.p-4.mt-5
+           p.text-center En algunos municipios se exige un certificado de bomberos en el cual se especifican las condiciones que se deben tener en cuenta para la realización de la quema.
+      
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/tema8/img9_tema_8.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.t3.p-4.mt-5
+           p.text-center No se debe hacer quemas en lugares cerca de una reserva forestal, ni junto a redes telefónicas o transformadores.
 
-      .tarjeta.color-acento-botones.t3.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema8/img9_tema_8.svg' alt='AvatarTop')
-        h2.text-center 
-        p.text-center No se debe hacer quemas en lugares cerca de una reserva forestal, ni junto a redes telefónicas o transformadores.
-
-   
+    <br>
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mt-5
       .bloque-texto-g__img.bloque-img-8(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img2_tema_8.png')})`}"
