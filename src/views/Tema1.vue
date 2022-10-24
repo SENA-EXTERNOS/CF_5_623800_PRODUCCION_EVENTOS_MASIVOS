@@ -19,10 +19,75 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3.mt-5
           p.mb-0 <b>Figura 1.</b> <em>Características generales para crear el montaje de un evento.</em>
-      .col-lg-10
-        img(src="@/assets/curso/temas/tema1/img2_tema_1.svg", alt="alt")
-        figcaption <p>Referencia Elaboración propia.</p> 
+      .col-lg-10 
+        .tabla
+          table
+            caption Referencia Elaboración propia.
+            thead
+              tr.color1-tabla
+                th CARACTERÍSTICAS
+                th VIRTUAL
+                th HÍBRIDO
+                th PRESENCIAL
+            tbody.color2-tabla
+              tr
+                td límite de participantes
+                td NO
+                td NO
+                td SÍ
 
+              tr.color1-tabla
+                td Cercanía y humanización
+                td BAJO
+                td MEDIO
+                td ALTO
+
+              tr.color2-tabla
+                td Ahorro de costes / rentabilidad
+                td ALTO
+                td MEDIO
+                td BAJO
+              tr.color1-tabla
+                td <em>Networking</em> real y estructurado
+                td SÍ
+                td SÍ
+                td SÍ 
+              tr.color2-tabla
+                td Barreras geográficas
+                td NO
+                td NO
+                td SÍ
+              tr.color1-tabla
+                td <em>Engagement</em>
+                td BAJO
+                td MEDIO
+                td ALTO
+              tr.color2-tabla
+                td Seguridad sanitaria
+                td ALTO
+                td MEDIO
+                td BAJO            
+              tr.color1-tabla
+                td Ahorro de tiempo y flexibilidad para los asistentes
+                td ALTO
+                td MEDIO
+                td BAJO
+              tr.color2-tabla
+                td Impacto visual
+                td ALTO
+                td ALTO
+                td ALTO
+              tr.color1-tabla
+                td Tiempo de preparación
+                td BAJO
+                td MEDIO
+                td ALTO
+              tr.color2-tabla
+                td Límite en contratación de ponentes
+                td BAJO
+                td MEDIO
+                td ALTO
+                                       
     .row.mt-5
       .col-lg-12
      
@@ -67,19 +132,19 @@
     
     .row.mt-5
       .col-lg-12.order-2.order-lg-1
-        TabsA.color-acento-botones
+        TabsA.color-acento-contenido
           .tarjeta.clr--gris.opciones-t8.p-4(titulo="Pisos, pistas y pasarelas")
             .row
               .col-lg-4
                   p.mb-0 <b>Pisos, pistas y pasarelas</b>
                   img(src="@/assets/curso/temas/tema1/tarjeta1_tema_1.svg", alt="alt")
               .col-lg-8    
-                   p.mb-3 Un buen piso puede transformar el diseño de un stand, escenario e inclusive dar otra cara a eventos en lugares abiertos. Las plataformas nos permiten adecuar los pisos, creando pistas y pasarelas con diferentes áreas y alturas.  La diversidad de estilos y materiales se adaptan según las características necesarias de cada evento.
+                   p.mb-3 Un buen piso puede transformar el diseño de un <i>stand</i>, escenario e inclusive dar otra cara a eventos en lugares abiertos. Las plataformas nos permiten adecuar los pisos, creando pistas y pasarelas con diferentes áreas y alturas.  La diversidad de estilos y materiales se adaptan según las características necesarias de cada evento.
          
-          .tarjeta.clr--gris.opciones-t8.p-4(titulo="Stands")
+          .tarjeta.clr--gris.opciones-t8.p-4(titulo="<i>Stands</i>")
             .row
               .col-lg-4
-                  p.mb-0 <b>Stands</b>
+                  p.mb-0 <b><i>Stands</i></b>
                   img(src="@/assets/curso/temas/tema1/tarjeta2_tema_1.png", alt="alt")
               .col-lg-8    
                   p.mb-3 Sin importar su tamaño, debe contribuir con su diseño atractivo a comunicar el mensaje o propósito para lo que fue creado.  
@@ -113,7 +178,7 @@
         p.mb-0 <b>Montaje de eventos virtuales</b>
     .row.mt-5
       .col.lg-12
-        p.mb-0 Los eventos virtuales se desarrollan a través de plataformas online que sirven para generar una conexión virtual entre los asistentes, eliminando las barreras físicas y reduciendo  los gastos en comparación con los eventos presenciales. Al igual que en otro tipo de eventos, en éste los participantes pueden igualmente vivir una experiencia innovadora. 
+        p.mb-0 Los eventos virtuales se desarrollan a través de plataformas <i>online</i> que sirven para generar una conexión virtual entre los asistentes, eliminando las barreras físicas y reduciendo  los gastos en comparación con los eventos presenciales. Al igual que en otro tipo de eventos, en éste los participantes pueden igualmente vivir una experiencia innovadora. 
 
     .bloque-texto-g.color-secundario2.p-3.p-sm-4.p-md-5.mt-5
       .bloque-texto-g__img(
@@ -132,9 +197,8 @@
             i.fas.fa-check
             | Reducción de costos y valor de venta del evento.
 
-    .row.mt-3
+    .row.mt-5
       .col-lg-12 
-        p.mb-3 Los eventos virtuales se desarrollan a través de plataformas online que sirven para generar una conexión virtual entre los asistentes, eliminando las barreras físicas y reduciendo  los gastos en comparación con los eventos presenciales. Al igual que en otro tipo de eventos, en éste los participantes pueden igualmente vivir una experiencia innovadora. 
         p.mb-0 A continuación, presentamos algunas de las tipologías de eventos que se pueden desarrollar de forma virtual, sin embargo, todos los formatos tradicionales se pueden convertir a este formato con organización y creatividad. 
 
     .row.mt-5
@@ -172,9 +236,9 @@
                 li.fas.fa-check
                   | Encuestas, cuestionarios o votaciones en línea
                 li.fas.fa-check
-                  | Paneles o foros con expertos mediante live-streaming.
+                  | Paneles o foros con expertos mediante <em>live-streaming.</em>
                 li.fas.fa-check
-                  | Vídeos animados con componentes de storytelling.
+                  | Vídeos animados con componentes de <em>storytelling.</em>
                 li.fas.fa-check
                   | Aplicaciones móviles.
                 li.fas.fa-check
@@ -196,7 +260,7 @@
                     h3.mb-1 Anexo 2
                     p.text-small Plataformas para conocer las plataformas más usadas. 
                   .col-sm-auto
-                    a.boton.color-acento-contenido(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    a.boton.color-acento-contenido(:href="obtenerLink('/downloads/3-Anexo_2_Plataformas_eventos_virtuales.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
         
@@ -206,7 +270,7 @@
           p.text-small Promocionar el evento con herramientas de comunicación digital de acuerdo al tipo de público: si el evento es enfocado al personal interno de una compañía, los canales a usar podrían ser los emails corporativos, periódico de la organización, intranet, grupos de redes sociales, etc.
       .row(numero="4" titulo="Paso 4")
         .col-md-12.mb-4.mb-md-0
-          p.text-small Entregar instrucciones e información clara del evento: la plataforma en la que se desarrollará; los links o claves de acceso; el cronograma o agenda; los contactos para dudas o requerimientos y  relacionar las reglas de comportamiento, como momentos en los que se pueden hacer preguntas entre otros aspectos.
+          p.text-small Entregar instrucciones e información clara del evento: la plataforma en la que se desarrollará; los <em>links</em> o claves de acceso; el cronograma o agenda; los contactos para dudas o requerimientos y  relacionar las reglas de comportamiento, como momentos en los que se pueden hacer preguntas entre otros aspectos.
       .row(numero="5" titulo="Paso 5")
         .col-md-12.mb-4.mb-md-0
           p.text-small Seguimiento a los participantes  a través de encuestas de percepción del evento, entre otros. Envío de materiales de apoyo como grabaciones de video o audio y cualquier otra información útil, dentro de las 48 horas siguientes a la finalización.
@@ -219,10 +283,10 @@
       .col-lg-4              
         img(src="@/assets/curso/temas/tema1/img7_tema_1.svg", alt="alt")
       .col-lg-8
-         p.mb-0 Son eventos “mixtos” que involucran la participación de asistentes al evento de manera presencial y una audiencia o público que se conecta de manera digital, mediante una transmisión en vivo “Streaming”. 
+         p.mb-0 Son eventos “mixtos” que involucran la participación de asistentes al evento de manera presencial y una audiencia o público que se conecta de manera digital, mediante una transmisión en vivo <em>“Streaming”.</em> 
          p.mb-3 De forma presencial, normalmente, el número de asistentes es reducido, mientras en lo virtual la participación puede ser mayor ya que  se usan plataformas audiovisuales y tecnológicas a través de las cuales las personas se conectan desde diferentes ciudades de origen.
           .cajon.color_anexo2.p-4
-            p.mb-0 <em>Streaming:</em> cualquier contenido de medios, ya sea en vivo o grabado, que se puede disfrutar en computadoras, celulares, tabletas, a través de Internet y en tiempo real. Los podcasts, webcasts, las películas, los programas de TV y los videos musicales son tipos comunes de contenido de streaming.
+            p.mb-0 <em>Streaming:</em> cualquier contenido de medios, ya sea en vivo o grabado, que se puede disfrutar en computadoras, celulares, tabletas, a través de Internet y en tiempo real. Los <em>podcasts, webcasts,</em> las películas, los programas de TV y los videos musicales son tipos comunes de contenido de <em>streaming.</em>
 
     .row.mt-5
       .col-lg-9             
@@ -248,10 +312,13 @@
       .col-lg-3
         img(src="@/assets/curso/temas/tema1/img11_tema_1.svg", alt="alt").
       .col-lg-9
-         p.mb-5 Sin embargo, la logística se multiplica cuando al organizar un evento de este tipo, pues es necesario contar con los elementos para un encuentro presencial y los gastos que esto implica. También se debe  sumar la infraestructura necesaria de un evento online y las herramientas de ‘realidad virtual’. Para lo anterior es importante la creación de un contenido de calidad, que sea dinámico, con el que se pueda interactuar en todo momento. Dentro de sus ventajas tenemos:     
+         p.mb-5 Sin embargo, la logística se multiplica cuando al organizar un evento de este tipo, pues es necesario contar con los elementos para un encuentro presencial y los gastos que esto implica. También se debe  sumar la infraestructura necesaria de un evento <em>online</em> y las herramientas de ‘realidad virtual’. 
 
+    .row.mt-5
+      .col-lg-12
+        p.mb-0 Estos son los pasos a tener en cuenta para su montaje.
 
-    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA(tipo="a" clase-tarjeta="tarjeta-tarjeta--azul").mt-5
       .row(titulo="Definir tipo de evento y objetivo")
         .col-md-4
           figure.img_10_t1
@@ -275,7 +342,7 @@
           figure.img_10_t1
             img(src='@/assets/curso/temas/tema1/icon3_tema_1.svg', alt='Texto que describa la imagen')
         .col-md-8.mb-4.mb-md-0
-          p Se debe estipular el número estimado de participantes con la intención de definir el tipo de herramienta streaming a usar; ya que en algunas de ellas existe un límite máximo de participantes.
+          p Se debe estipular el número estimado de participantes con la intención de definir el tipo de herramienta <em>streaming</em> a usar; ya que en algunas de ellas existe un límite máximo de participantes.
           p.mt-3 Para el espacio físico se debe definir la locación con el fin de identificar el montaje ideal. Es importante comprender el tipo de asistentes para saber su adecuado trato: clientes, invitados VIP, personal de la empresa, etc.
 
       .row(titulo="Elegir la mejor plataforma")
@@ -291,8 +358,8 @@
             img(src='@/assets/curso/temas/tema1/icon5_tema_1.svg', alt='Texto que describa la imagen')
         .col-md-8.mb-4.mb-md-0
           p.mt-3 Según LinkedIn (2021), dentro de la modalidad de eventos digitales e híbridos hay 3 tipos de escenarios principales : Escenario Virtual. Hace referencia al escenario que los participantes que estarán conectados al evento de manera digital, van a visualizar.
-          p.mt-3 Escenario led. Un escenario con pantallas led puede ser un poco más tradicional pues se utiliza de manera frecuente en eventos presenciales. Sin embargo, en una modalidad híbrida este tipo de escenario le permitirá tener mayor consistencia entre la información que visualizará el público presencial y el virtual.
-          p.mt-3 Escenario chroma Key. utiliza un fondo comúnmente verde, donde se proyectará un escenario o fondo virtual que previamente deberá definir. Es un escenario muy versátil y puede aportar un ambiente mucho más creativo para el desarrollo del evento. (párr. 29)
+          p.mt-3 Escenario <em>led.</em> Un escenario con pantallas <em>led</em> puede ser un poco más tradicional pues se utiliza de manera frecuente en eventos presenciales. Sin embargo, en una modalidad híbrida este tipo de escenario le permitirá tener mayor consistencia entre la información que visualizará el público presencial y el virtual.
+          p.mt-3 Escenario <em>chroma Key.</em> utiliza un fondo comúnmente verde, donde se proyectará un escenario o fondo virtual que previamente deberá definir. Es un escenario muy versátil y puede aportar un ambiente mucho más creativo para el desarrollo del evento. (párr. 29)
 
 
 

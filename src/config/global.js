@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Montajes y normatividad de los eventos',
     descripcionCurso:
       'Todo evento requiere de una correcta planificación y organización a fin de evitar cualquier inconveniente durante y después del mismo. Una de las actividades esenciales es el montaje de todas las estructuras necesarias para la realización de lo planeado, por lo cual una buena gestión es clave para poder llevar a cabo las actividades de una manera correcta',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
   menuPrincipal: {
@@ -40,7 +40,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'El render y el raider de un evento',
+        titulo: 'El render y el rider de un evento',
         desarrolloContenidos: true,
       },
       {
@@ -80,7 +80,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.2',
-            titulo: 'Trabajo en alturas.',
+            titulo: 'Normatividad en alturas',
             hash: 't_4_2',
           },
           {
@@ -190,7 +190,7 @@ export default {
       link: 'http://sedici.unlp.edu.ar/handle/10915/81531',
     },
     {
-      tema: 'Montaje de stands para eventos y ferias',
+      tema: 'Montaje de <em>stands</em> para eventos y ferias',
       referencia:
         'Franco Camargo, G (2003). Asesoría en exhibición y montaje de stands para eventos y ferias de Artesanías de Colombia. AA. Cuadernos de Diseño.',
       tipo: 'Artículo',

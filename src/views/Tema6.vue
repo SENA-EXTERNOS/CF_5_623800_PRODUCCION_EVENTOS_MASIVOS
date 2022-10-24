@@ -18,7 +18,7 @@
 
     separador
     #t_6_1.titulo-segundo.color-acento-contenido
-      h2 6.1 Trabajo en alturas
+      h2 6.1 Estructuras para eventos
 
     .row
       .col-lg-12
@@ -74,12 +74,9 @@
           p.mb-3 Existen recintos que cuentan con instalaciones eléctricas certificadas y aptas para ser utilizadas en los eventos; sin embargo, hay otros, en los que se debe realizar una instalación temporal, ya que no cuentan con la misma en su interior. Éstas deben ser realizadas y verificadas por un técnico competente en el área, que se encuentre titulado en el campo o por un organismo de control. Dentro de los implementos que se pueden adecuar en un recinto que no cuente con una instalación eléctrica están: grupos electrógenos, cuadros de distribución, bancos de carga, SAI/UPS, transformadores, cableado, pasacables, depósito de combustible, iluminación, señalética y seguridad.
 
     .row.mt-5
-      .col-lg-10
+      .col-lg-12
          p.mb-3 Con respecto a las sustancias inflamables, es importante mencionar que los eventos, bien sea al aire libre o en espacios cerrados, no están exentos de ser generadores de emergencias con sólidos inflamables (compuestos de carbón, alcanfor o celuloide); líquidos (gasolina, pentano, metanol, acetona, etanol, pinturas, barniz) y gases inflamables (hidrógeno, metano, etano). Todo dependerá de la temática y de lo que se use, tanto para su montaje o adecuación, como para el desarrollo de los espectáculos o actividades centrales.
-      .col-lg-2
-        figure
-        img( width="50" src="@/assets/curso/temas/tema6/img7_tema_6.svg", alt="alt") 
-
+      
     .row.mt-5
       .col-lg-12
           p.mb-3 Por ello es importante que se tomen precauciones como:
@@ -116,7 +113,7 @@
         .row.justify-content-center.align-items-center.my-lg-4
           .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative
             .number(data-number="04")
-              p.ps-4.mb-0 son fáciles de implementar y es posible recolectar una gran cantidad de información de los clientes. Se pueden usar preguntas con opción múltiple de respuesta ya que son fáciles de cuantificar y poder expresar la información a través de gráficos. 
+              p.ps-4.mb-0 Los empleados deben dar cuenta de fugas, derrames o contenedores en mal estado.
           .col-6.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema6/img11_tema_6.svg')

@@ -9,7 +9,7 @@
   
     .row
       .col-lg-12.mt-5
-        Revisar los contenidos de este componente, le permitirá seguir apropiándose de la información y así contribuir al desarrollo de excelentes eventos. Se le invita a dar una mirada a la siguiente síntesis:
+        p Revisar los contenidos de este componente, le permitirá seguir apropiándose de la información y así contribuir al desarrollo de excelentes eventos. Se le invita a dar una mirada a la siguiente síntesis:
 
     .row.justify-content-center.mt-5
       .col-lg-10.mb-5

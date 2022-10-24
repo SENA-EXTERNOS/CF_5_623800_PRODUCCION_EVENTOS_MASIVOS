@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1030" height="706.019" viewBox="0 0 1030 706.019">
   <defs>
-    <filter id="_07" x="608.244" y="363.96" width="68" height="72" filterUnits="userSpaceOnUse">
+    <filter id="_07" x="608.245" y="363.96" width="68" height="72" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-color="#544191"/>
@@ -14,14 +14,14 @@
       <feComposite operator="in" in2="blur-2"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="_07-2" x="868.277" y="363.96" width="68" height="72" filterUnits="userSpaceOnUse">
+    <filter id="_08" x="868.278" y="363.96" width="68" height="72" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-3"/>
       <feFlood flood-color="#544191"/>
       <feComposite operator="in" in2="blur-3"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="_02" x="348.645" y="3.037" width="68" height="72" filterUnits="userSpaceOnUse">
+    <filter id="_02" x="348.644" y="3.037" width="68" height="72" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-4"/>
       <feFlood flood-color="#544191"/>
@@ -109,8 +109,8 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Grupo_131967" data-name="Grupo 131967" transform="translate(9724 7793.019)">
-    <g id="Grupo_131966" data-name="Grupo 131966" transform="translate(-10009 -10873.998)">
+  <g id="Grupo_132218" data-name="Grupo 132218" transform="translate(-285 -3674)">
+    <g id="Grupo_130703" data-name="Grupo 130703" transform="translate(0 593.021)">
       <g id="Grupo_130414" data-name="Grupo 130414" transform="translate(805.283 3441.902)">
         <g id="Grupo_129117" data-name="Grupo 129117" transform="translate(0 0)">
           <path id="Trazado_115194" data-name="Trazado 115194" d="M678.645,694.851c0,5.3-3.333,9.593-7.446,9.593H441.737c-4.109,0-7.441-4.294-7.441-9.593V374.832c0-5.3,3.332-9.59,7.441-9.59H671.2c4.112,0,7.446,4.291,7.446,9.59Z" transform="translate(-428.961 -359.639)" fill="#ccc"/>
@@ -125,7 +125,7 @@
           </g>
         </g>
         <g transform="matrix(1, 0, 0, 1, -520.28, -360.92)" filter="url(#_07)">
-          <text id="_07-3" data-name="07" transform="translate(617.24 369.96)" fill="#fff" font-size="35" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="4.828" y="37">07</tspan></text>
+          <text id="_07-2" data-name="07" transform="translate(617.24 369.96)" fill="#fff" font-size="35" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="4.828" y="37">07</tspan></text>
         </g>
       </g>
       <g id="Grupo_130415" data-name="Grupo 130415" transform="translate(289.625 3442.193)">
@@ -158,8 +158,8 @@
             </g>
           </g>
         </g>
-        <g transform="matrix(1, 0, 0, 1, -780.32, -360.92)" filter="url(#_07-2)">
-          <text id="_07-4" data-name="07" transform="translate(877.28 369.96)" fill="#fff" font-size="35" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="4.828" y="37">07</tspan></text>
+        <g transform="matrix(1, 0, 0, 1, -780.32, -360.92)" filter="url(#_08)">
+          <text id="_08-2" data-name="08" transform="translate(877.28 369.96)" fill="#fff" font-size="35" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="4.828" y="37">08</tspan></text>
         </g>
       </g>
       <g id="Shadows" transform="translate(545.25 3080.979)">
@@ -4122,18 +4122,20 @@
           </g>
         </g>
       </g>
-      <text id="WEB_CAST_Y_WEBINAR." data-name="WEB CAST Y WEBINAR." transform="translate(332.596 3184.375)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="20.019" y="21">WEB CAST Y </tspan><tspan x="30.503" y="41">WEBINAR.</tspan></text>
-      <text id="HAPPY_HOUR_CELEBRACIONES_FESTIVALES_ONLINE." data-name="HAPPY HOUR, CELEBRACIONES, FESTIVALES ONLINE." transform="translate(826.218 3524.763)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="39.845" y="21">HAPPY HOUR, </tspan><tspan x="24.337" y="41">CELEBRACIONES, </tspan><tspan x="7.858" y="61">FESTIVALES ONLINE.</tspan></text>
+      <text id="Web_cast_y_webinar." data-name="Web cast y webinar." transform="translate(332.596 3184.375)" fill="#12263f" font-size="20" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="29.35" y="21">Web cast y </tspan><tspan x="40.302" y="41">webinar.</tspan></text>
+      <text id="_Happy_hour_celebraciones_festivales_online." data-name="
+Happy hour, celebraciones festivales online." transform="translate(826.218 3524.763)" fill="#12263f" font-size="20" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="104.674" y="21"></tspan><tspan x="52.472" y="41">Happy hour, </tspan><tspan x="43.087" y="61">celebraciones </tspan><tspan x="29.43" y="81">festivales online.</tspan></text>
       <g transform="matrix(1, 0, 0, 1, 285, 3080.98)" filter="url(#_01)">
         <text id="_01-2" data-name="01" transform="translate(96.96 9.04)" fill="#fff" font-size="35" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="4.828" y="37">01</tspan></text>
       </g>
-      <text id="VIDEO_CONFERENCIAS." data-name="VIDEO CONFERENCIAS." transform="translate(586.018 3184.375)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="55.926" y="21">VIDEO </tspan><tspan x="8.49" y="41">CONFERENCIAS.</tspan></text>
-      <text id="FERIAS_Y_EXPOSICIONES_COMERCIALES." data-name="FERIAS Y EXPOSICIONES COMERCIALES." transform="translate(847.153 3178.866)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="42.459" y="21">FERIAS Y </tspan><tspan x="14.818" y="41">EXPOSICIONES </tspan><tspan x="13.915" y="61">COMERCIALES.</tspan></text>
-      <text id="ACTIVIDADES_DE_TEAM_BULDING." data-name="ACTIVIDADES DE TEAM BULDING." transform="translate(1102.778 3178.866)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="6.61" y="21">ACTIVIDADES DE </tspan><tspan x="10.047" y="41">TEAM BULDING.</tspan></text>
-      <text id="TOURS_VIRTUALES" data-name="TOURS
-VIRTUALES" transform="translate(351.328 3551.207)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="30.739" y="21">TOURS</tspan><tspan x="10.637" y="41">VIRTUALES</tspan></text>
-      <text id="ACTIVIDADES_DE_TRAINING_VIRTUAL" data-name="ACTIVIDADES DE TRAINING VIRTUAL" transform="translate(566.185 3551.207)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="26.876" y="21">ACTIVIDADES DE </tspan><tspan x="15.729" y="41">TRAINING VIRTUAL</tspan></text>
-      <text id="EVENTOS_EN_ESCENARIOS_3D_CON_PERSONIFICACIÒN_DE_AVATARES." data-name="EVENTOS EN ESCENARIOS 3D CON PERSONIFICACIÒN DE AVATARES." transform="translate(1085.149 3519.253)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="45.548" y="21">EVENTOS EN </tspan><tspan x="6.872" y="39">ESCENARIOS 3D CON </tspan><tspan x="3.488" y="57">PERSONIFICACIÒN DE </tspan><tspan x="52.619" y="75">AVATARES.</tspan></text>
+      <text id="Video_Conferencias." data-name="Video Conferencias." transform="translate(586.018 3184.375)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="58.524" y="21">Video </tspan><tspan x="21.693" y="41">Conferencias.</tspan></text>
+      <text id="_Ferias_y_exposiciones_comerciales." data-name=" Ferias y exposiciones comerciales." transform="translate(847.153 3178.866)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="46.722" y="21" xml:space="preserve"> Ferias y </tspan><tspan x="25.169" y="41">exposiciones </tspan><tspan x="26.59" y="61">comerciales.</tspan></text>
+      <text id="Actividades_de_team_bulding." data-name="Actividades de  team bulding." transform="translate(1102.778 3178.866)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="15.531" y="21">Actividades de </tspan><tspan y="21" font-family="Roboto-BoldItalic, Roboto" font-style="italic"> </tspan><tspan x="23.949" y="41" font-family="Roboto-BoldItalic, Roboto" font-style="italic">team bulding.</tspan></text>
+      <text id="Tours_Virtuales" data-name="Tours
+Virtuales" transform="translate(351.328 3551.207)" fill="#12263f" font-size="20" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="38.137" y="21">Tours</tspan><tspan font-family="Roboto-Bold, Roboto" font-style="normal"><tspan x="22.189" y="41">Virtuales</tspan></tspan></text>
+      <text id="Actividades_de_training_virtual_" data-name="Actividades de  training virtual " transform="translate(566.185 3551.207)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="38.288" y="21" xml:space="preserve">Actividades de  </tspan><tspan x="39.787" y="41" font-family="Roboto-BoldItalic, Roboto" font-style="italic">training</tspan><tspan y="41" xml:space="preserve"> virtual </tspan></text>
+      <text id="_Eventos_en_escenarios_3D_con_personificación_avatares." data-name="
+Eventos en escenarios 3D con personificación avatares." transform="translate(1085.149 3519.253)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="104.674" y="21"></tspan><tspan x="3.878" y="39">Eventos en escenarios </tspan><tspan x="1.476" y="57">3D con personificación </tspan><tspan x="63.205" y="75">avatares.</tspan></text>
     </g>
   </g>
 </svg>

@@ -124,7 +124,7 @@
             p.mb-0 Ahora, aparte de contar con los documentos necesarios, gran parte del éxito de un evento depende del personal logístico, quienes se encargan de mantener el contacto con el organizador, establecer tiempos y coordinar las actividades relacionadas al recinto,  equipos de audio y video, mesas, sillas y otros. El tipo y cantidad de recurso humano está dado por el tipo de evento, sus características y número de participantes. 
             <br>
             <br>
-            p.mt-3 Este personal debe estar presente en cada etapa del evento con la intención de asegurar su éxito teniendo en cuenta lo planeado; la idea es que cada etapa esté cubierta por el staff en un mínimo de 2 personas según la cantidad de asistentes, y cubriendo entre otras las siguientes áreas: 
+            p.mt-3 Este personal debe estar presente en cada etapa del evento con la intención de asegurar su éxito teniendo en cuenta lo planeado; la idea es que cada etapa esté cubierta por el <em>staff</em> en un mínimo de 2 personas según la cantidad de asistentes, y cubriendo entre otras las siguientes áreas: 
       .col-lg-3  
         figure
         img(width="70" height="230" src="@/assets/curso/temas/tema3/img2_tema_3.svg", alt="alt")

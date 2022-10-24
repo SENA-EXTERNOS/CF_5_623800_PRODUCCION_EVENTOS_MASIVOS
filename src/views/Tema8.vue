@@ -59,17 +59,15 @@
         h2.text-center 
         p.text-center No se debe hacer quemas en lugares cerca de una reserva forestal, ni junto a redes telefónicas o transformadores.
 
-      
-    .row.mt-5
-      .col.lg-12
-        .bloque-texto-g.color-secundario2.p-3.p-sm-4.p-md-5.mt-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img2_tema_8.png')})`}"
-          )
-          .bloque-texto-g__texto-t1.p-4
-            p.mb-0 Para ampliar más la información se pueden consultar las siguientes referencias normativas:
+   
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mt-5
+      .bloque-texto-g__img.bloque-img-8(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img2_tema_8.png')})`}"
+      )
+      .bloque-texto-g__texto.bloque-text-8.p-4
+          p.mt-5 Para ampliar más la información se pueden consultar las siguientes referencias normativas: <br>
             p
-              ol.lista-ol--cuadro.mt-3
+              ol.lista-ol--cuadro.mt-5
                 li 
                   .lista-ol--cuadro__vineta
                     span 1
@@ -86,6 +84,8 @@
                   .lista-ol--cuadro__vineta
                     span 4
                   | Nfpa 704 marcación de vehículos
+    
+   
 
     .row.mt-5
       .col-lg-12
@@ -98,19 +98,19 @@
          
     .row.mt-5
       .col-lg-12.order-2.order-lg-1
-        TabsA.color-acento-botones
+        TabsA.color-acento-contenido
           .tarjeta.clr--gris.opciones-t8.p-4(titulo="Efectos especiales pirotécnicos: ")
             p.mb-0 <b>Efectos especiales pirotécnicos: </b>
             p.mb-3 se usan en espacios donde la distancia de seguridad es limitada. Estos efectos se pueden aplicar en todo tipo de evento ya que cuenta con altos requisitos de seguridad y su combustión es limpia.
 
           .tarjeta.clr--gris.opciones-t8.p-4(titulo="Fuegos artificiales")
-            p.mb-0 <b>Efectos especiales pirotécnicos: </b>
-            p.mb-3 se usan en espacios donde la distancia de seguridad es limitada. Estos efectos se pueden aplicar en todo tipo de evento ya que cuenta con altos requisitos de seguridad y su combustión es limpia.
+            p.mb-0 <b>Fuegos artificiales: </b>
+            p.mb-3 se aplican en eventos al aire libre y buscan generar experiencias visuales agradables ya que brindan imágenes increíbles a los espectadores.
 
           .tarjeta.clr--gris.opciones-t8.p-4(titulo="Fuegos grandes artificiales")
-            p.mb-0 <b>Efectos especiales pirotécnicos: </b>
-            p.mb-3 se usan en espacios donde la distancia de seguridad es limitada. Estos efectos se pueden aplicar en todo tipo de evento ya que cuenta con altos requisitos de seguridad y su combustión es limpia.
-    
+            p.mb-0 <b>Fuegos grandes artificiales: </b>
+            p.mb-3 solo pueden ser manipulados por personas capacitadas en el tema, por tanto, no son aptos para uso personal. Logran alcanzar una gran altura y explosión; esta característica los diferencia de los otros fuegos artificiales. Este tipo de espectáculo le da un mayor nivel a cualquier evento cuya temática vaya acorde con el show.
+            
     .row.mt-5.justify-content-around.align-items-center
       .col-lg-10  
         .cajon.color_anexo2.p-4

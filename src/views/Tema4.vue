@@ -53,11 +53,11 @@
               img(src="@/assets/curso/temas/tema4/img1-t3_tema_4.svg", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Seguridad
-            p.mb-0 Incendio
-            p.mb-0 Explosión
-            p.mb-0 Derrumbe
-            p.mb-0 Inundación
-            p.mb-0 Tormenta
+            p.mb-0 Disparo de arma
+            p.mb-0 Violencia sexual
+            p.mb-0 Homicidio
+            p.mb-0 Secuestro
+            p.mb-0 Asalto
       
       .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
@@ -81,7 +81,14 @@
         img(src="@/assets/curso/temas/tema4/img1_tema_4.svg", alt="alt")  
       .col-lg-8
           p.mb-3 El Ministerio de Trabajo Colombiano (2012) en su Resolución 1409 de 2012, menciona que el trabajo en alturas es “toda actividad que realiza un trabajador que ocasione la suspensión y/o desplazamiento, en el que se vea expuesto a un riesgo de caída, mayor 2.0 metros, con relación del plano de los pies del trabajador al plano horizontal inferior más cercano a él” (p. 9). Este tipo de labor es una de las principales causantes de muerte o lesiones graves debido a los múltiples riesgos que conlleva su ejecución, como por ejemplo caídas de tejados, de escaleras y de alguna superficie mal instalada o frágil.
+    
+    .row.doble-parraf 
+      .col-lg-8       
           p.mb-3 Los principales riesgos en alturas que se pueden presentar son: manipulación de escaleras (fijas, de mano, etc.); ingreso a pozos, zanjas, aberturas; daños en plataformas (aberturas, desniveles, hoyos etc.); ascenso de materiales de gran tamaño (tuberías grandes, cadenas etc.); mal uso de máquinas, plataformas y equipos de elevación; trabajar en superficies inestables como algunos tejados, plataformas, etc.; trabajos con bordes desprotegidos (lozas, plataformas, etc.) 
+      .col-lg-4        
+        figure
+        img(src="@/assets/curso/temas/tema4/img2_tema_4.svg", alt="alt")
+
 
     .row.mt-5
       .col.lg-12
@@ -111,17 +118,17 @@
                 i.fas.fa-check
                 | No se debe permitir que una persona no competente realice trabajo en alturas.     
 
- 
+  
+    separador
+    #t_4_2.titulo-segundo.color-acento-contenido
+      h2 4.2 Normativa en alturas.
+    
     .row.mt-5
       .col-lg-12
           p.mb0 En Colombia la normatividad se actualiza cada año con el fin de mantener el trabajo en alturas en buen estado para prevenir los accidentes.  
-    
-    separador
-    #t_4_2.titulo-segundo.color-acento-contenido
-      h2 4.2 Trabajo en alturas.
-      
+     
 
-    .row.justify-content-center
+    .row.justify-content-center.mt-5
       .col-lg-10
         PasosA.color-acento-contenido.mb-5(tipo="n")
           .row
@@ -204,7 +211,7 @@
         .tarjeta.tarjeta.color-acento-botones-t3.p-3(x="54%" y="41%" numero="7")
           p.heading_t4 <b>Línea de posicionamiento:</b> le permite al trabajador ubicarse frente a la zona de trabajo y mantener las manos libres, ya que este elemento rodea la estructura y se fija al arnés, proporcionando estabilidad (Sumatec, 2019) 
         .tarjeta.tarjeta.color-acento-botones-t3.p-3(x="50%" y="50%" numero="8")
-          p.heading_t4 <b>Salva caídas troll o arrestador:</b> es el elemento deslizante en un solo sentido, con doble traba de seguridad, que le permite asegurarse a la línea de vida que recorre la ruta de ascenso y descenso y que se conecta al arnés. Debe detener la caída del trabajador, mediante bloqueo automático sobre la línea de vida (Sumatec, 2019)   
+          p.heading_t4 <b>Salva caídas <em>troll</em> o arrestador:</b> es el elemento deslizante en un solo sentido, con doble traba de seguridad, que le permite asegurarse a la línea de vida que recorre la ruta de ascenso y descenso y que se conecta al arnés. Debe detener la caída del trabajador, mediante bloqueo automático sobre la línea de vida (Sumatec, 2019)   
     
     separador
     #t_4_4.titulo-segundo.color-acento-contenido
