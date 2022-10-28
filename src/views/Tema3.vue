@@ -66,11 +66,6 @@
            p.text-center Cumplir con las normas referentes a la intensidad auditiva, horario y ubicación, señalados por la entidad competente del respectivo municipio.
 
       .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema3/icon8_tema_3.svg' alt='AvatarTop')
-        .tarjeta.color-acento-botones.t3.p-4.mt-5
-           p.text-center Contar con un Plan de Gestión del Riesgo o plan de contingencia para la prevención y mitigación de riesgos, que responda a las características particulares del escenario. Este plan también debe incluir las medidas sanitarias requeridas según el espacio del evento (Decreto 1276 del 2020).
-      
-      .tarjeta-avatar
         img(src='@/assets/curso/temas/tema3/icon9_tema_3.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones.t3.p-4.mt-5
            p.text-center Tener las constancias o comprobantes de pago de los derechos de autor y conexos, cuando en el espectáculo público se ejecuten obras causantes de dichos pagos.
