@@ -26,21 +26,13 @@ export default {
         titulo:
           'Tipos de montajes para eventos presenciales, híbridos y digitales',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'El render y el rider de un evento',
+        titulo: 'El <em>render</em> y el <em>rider</em> de un evento',
         desarrolloContenidos: true,
       },
       {
@@ -114,7 +106,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '6.1',
-            titulo: 'Trabajo en alturas',
+            titulo: 'Estructuras para eventos',
             hash: 't_6_1',
           },
           {
