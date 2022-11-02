@@ -37,12 +37,12 @@
       .tarjeta-avatar
         img(src='@/assets/curso/temas/tema3/icon2_tema_3.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones.t3.p-4.mt-5
-          p.text-center Contrato del sitio del evento
+          p.text-center.tarjeta-avatar-1 Contrato del sitio del evento
 
       .tarjeta-avatar
         img(src='@/assets/curso/temas/tema3/icon3_tema_3.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones.t3.p-4.mt-5
-          p.text-center Carta emitida por la empresa que genera la boletería, indicando el nombre de cada localidad, su aforo y el valor.
+          p.text-center.tarjeta-avatar-2 Carta emitida por la empresa que genera la boletería, indicando el nombre de cada localidad, su aforo y el valor.
 
       .tarjeta-avatar
         img(src='@/assets/curso/temas/tema3/icon4_tema_3.svg' alt='AvatarTop')
@@ -53,37 +53,37 @@
       .tarjeta-avatar
         img(src='@/assets/curso/temas/tema3/icon5_tema_3.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones.t3.p-4.mt-5
-           p.text-center Contar con un Plan de Gestión del Riesgo o plan de contingencia para la prevención y mitigación de riesgos, que responda a las características particulares del escenario. Este plan también debe incluir las medidas sanitarias requeridas según el espacio del evento (Decreto 1276 del 2020).
+           p.text-center.tarjeta-avatar-4 Contar con un Plan de Gestión del Riesgo o plan de contingencia para la prevención y mitigación de riesgos, que responda a las características particulares del escenario. Este plan también debe incluir las medidas sanitarias requeridas según el espacio del evento (Decreto 1276 del 2020).
       
       .tarjeta-avatar
         img(src='@/assets/curso/temas/tema3/icon6_tema_3.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones.t3.p-4.mt-5
-           p.text-center Mapa del sitio con vías de evacuación.
+           p.text-center.tarjeta-avatar-5 Mapa del sitio con vías de evacuación.
 
       .tarjeta-avatar
         img(src='@/assets/curso/temas/tema3/icon7_tema_3.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones.t3.p-4.mt-5
-           p.text-center Cumplir con las normas referentes a la intensidad auditiva, horario y ubicación, señalados por la entidad competente del respectivo municipio.
+           p.text-center.tarjeta-avatar-6 Cumplir con las normas referentes a la intensidad auditiva, horario y ubicación, señalados por la entidad competente del respectivo municipio.
 
       .tarjeta-avatar
         img(src='@/assets/curso/temas/tema3/icon9_tema_3.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones.t3.p-4.mt-5
-           p.text-center Tener las constancias o comprobantes de pago de los derechos de autor y conexos, cuando en el espectáculo público se ejecuten obras causantes de dichos pagos.
+           p.text-center.tarjeta-avatar-7 Tener las constancias o comprobantes de pago de los derechos de autor y conexos, cuando en el espectáculo público se ejecuten obras causantes de dichos pagos.
 
       .tarjeta-avatar
         img(src='@/assets/curso/temas/tema3/icon10_tema_3.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones.t3.p-4.mt-5
-           p.text-center Carta de autorización de bomberos
+           p.text-center.tarjeta-avatar-8 Carta de autorización de bomberos
 
       .tarjeta-avatar
         img(src='@/assets/curso/temas/tema3/icon11_tema_3.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones.t3.p-4.mt-5
-           p.text-center Certificado en el que se garantiza la atención prehospitalaria por una IPS autorizada. Póliza de responsabilidad civil extracontractual conforme a los requisitos establecidos en el Artículo 26 de la Resolución 569 de 2014 (Secretaría Distrital de Gobierno, 2014)
+           p.text-center.tarjeta-avatar-9 Certificado en el que se garantiza la atención prehospitalaria por una IPS autorizada. Póliza de responsabilidad civil extracontractual conforme a los requisitos establecidos en el Artículo 26 de la Resolución 569 de 2014 (Secretaría Distrital de Gobierno, 2014)
 
       .tarjeta-avatar
         img(src='@/assets/curso/temas/tema3/icon12_tema_3.svg' alt='AvatarTop')
         .tarjeta.color-acento-botones.t3.p-4.mt-5
-           p.text-center Si el evento incluye manipulación de alimentos, se requiere listado del personal que preparará los mismos con su respectivo certificado del curso de manipulación de alimentos, examen clínico de uñas, frotis de garganta, coprológico.
+           p.text-center.tarjeta-avatar-10 Si el evento incluye manipulación de alimentos, se requiere listado del personal que preparará los mismos con su respectivo certificado del curso de manipulación de alimentos, examen clínico de uñas, frotis de garganta, coprológico.
 
     separador
     #t_3_2.titulo-segundo.color-acento-contenido
