@@ -10,16 +10,14 @@
     .row.img_10_t2
       .co-lg-12
         figure
-        img(src="@/assets/curso/temas/tema3/img1_tema_3.svg", alt="alt")
+        img(src="@/assets/curso/temas/tema3/1.svg", alt="alt")
     .row.mt-5
       figure
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video: Leyenda del video
+        
     
-    separador
-    #t_3_1.titulo-segundo.color-acento-contenido
-      h2 3.1 Documentación legal
+    h3.mt-5 Documentación legal
 
     .row.mt-5
       .col-lg-2
@@ -34,69 +32,84 @@
    
    
     SlyderF.mb-5.mt-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema3/icon2_tema_3.svg' alt='AvatarTop')
-        .tarjeta.color-acento-botones.t3.p-4.mt-5
-          p.text-center.tarjeta-avatar-1 Contrato del sitio del evento
+      .tarjeta.color-acento-botones.p-4.h-100.bg
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema3/icon2_tema_3.svg' alt='AvatarTop')
+        .tarjeta
+          p.text-center Contrato del sitio del evento.
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema3/icon3_tema_3.svg' alt='AvatarTop')
-        .tarjeta.color-acento-botones.t3.p-4.mt-5
-          p.text-center.tarjeta-avatar-2 Carta emitida por la empresa que genera la boletería, indicando el nombre de cada localidad, su aforo y el valor.
+      .tarjeta.color-acento-botones.p-4.h-100.bg
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema3/icon3_tema_3.svg' alt='AvatarTop')
+        .tarjeta
+          p.text-center Carta emitida por la empresa que genera la boletería, indicando el nombre de cada localidad, su aforo y el valor.
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema3/icon4_tema_3.svg' alt='AvatarTop')
-        .tarjeta.color-acento-botones.t3.p-4.mt-5
+      .tarjeta.color-acento-botones.p-4.h-100.bg
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema3/icon4_tema_3.svg' alt='AvatarTop')
+        .tarjeta
           p.text-center Documentos de identificación del solicitante Certificado de existencia y representación legal y cédula de ciudadanía del representante legal para personas jurídicas. 
           p.text-center Cédula de ciudadanía o de extranjería para personas naturales. Registro de Información Tributaria - RIT
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema3/icon5_tema_3.svg' alt='AvatarTop')
-        .tarjeta.color-acento-botones.t3.p-4.mt-5
-           p.text-center.tarjeta-avatar-4 Contar con un Plan de Gestión del Riesgo o plan de contingencia para la prevención y mitigación de riesgos, que responda a las características particulares del escenario. Este plan también debe incluir las medidas sanitarias requeridas según el espacio del evento (Decreto 1276 del 2020).
+      .tarjeta.color-acento-botones.p-4.h-100.bg
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema3/icon5_tema_3.svg' alt='AvatarTop')
+        .tarjeta
+          p.text-center Contar con un Plan de Gestión del Riesgo o plan de contingencia para la prevención y mitigación de riesgos, que responda a las características particulares del escenario. Este plan también debe incluir las medidas sanitarias requeridas según el espacio del evento (Decreto 1276 del 2020).
       
-      .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema3/icon6_tema_3.svg' alt='AvatarTop')
-        .tarjeta.color-acento-botones.t3.p-4.mt-5
-           p.text-center.tarjeta-avatar-5 Mapa del sitio con vías de evacuación.
+      .tarjeta.color-acento-botones.p-4.h-100.bg
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema3/icon6_tema_3.svg' alt='AvatarTop')
+        .tarjeta
+          p.text-center Mapa del sitio con vías de evacuación.
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema3/icon7_tema_3.svg' alt='AvatarTop')
-        .tarjeta.color-acento-botones.t3.p-4.mt-5
-           p.text-center.tarjeta-avatar-6 Cumplir con las normas referentes a la intensidad auditiva, horario y ubicación, señalados por la entidad competente del respectivo municipio.
+      .tarjeta.color-acento-botones.p-4.h-100.bg
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema3/icon7_tema_3.svg' alt='AvatarTop')
+        .tarjeta
+          p.text-center Cumplir con las normas referentes a la intensidad auditiva, horario y ubicación, señalados por la entidad competente del respectivo municipio.
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema3/icon9_tema_3.svg' alt='AvatarTop')
-        .tarjeta.color-acento-botones.t3.p-4.mt-5
-           p.text-center.tarjeta-avatar-7 Tener las constancias o comprobantes de pago de los derechos de autor y conexos, cuando en el espectáculo público se ejecuten obras causantes de dichos pagos.
+      .tarjeta.color-acento-botones.p-4.h-100.bg
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema3/icon9_tema_3.svg' alt='AvatarTop')
+        .tarjeta
+          p.text-center Tener las constancias o comprobantes de pago de los derechos de autor y conexos, cuando en el espectáculo público se ejecuten obras causantes de dichos pagos.
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema3/icon10_tema_3.svg' alt='AvatarTop')
-        .tarjeta.color-acento-botones.t3.p-4.mt-5
-           p.text-center.tarjeta-avatar-8 Carta de autorización de bomberos
+      .tarjeta.color-acento-botones.p-4.h-100.bg
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema3/icon10_tema_3.svg' alt='AvatarTop')
+        .tarjeta
+          p.text-center Carta de autorización de bomberos.
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema3/icon11_tema_3.svg' alt='AvatarTop')
-        .tarjeta.color-acento-botones.t3.p-4.mt-5
-           p.text-center.tarjeta-avatar-9 Certificado en el que se garantiza la atención prehospitalaria por una IPS autorizada. Póliza de responsabilidad civil extracontractual conforme a los requisitos establecidos en el Artículo 26 de la Resolución 569 de 2014 (Secretaría Distrital de Gobierno, 2014)
+      .tarjeta.color-acento-botones.p-4.h-100.bg
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema3/icon11_tema_3.svg' alt='AvatarTop')
+        .tarjeta
+          p.text-center Certificado en el que se garantiza la atención prehospitalaria por una IPS autorizada. Póliza de responsabilidad civil extracontractual conforme a los requisitos establecidos en el Artículo 26 de la Resolución 569 de 2014 (Secretaría Distrital de Gobierno, 2014)
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema3/icon12_tema_3.svg' alt='AvatarTop')
-        .tarjeta.color-acento-botones.t3.p-4.mt-5
-           p.text-center.tarjeta-avatar-10 Si el evento incluye manipulación de alimentos, se requiere listado del personal que preparará los mismos con su respectivo certificado del curso de manipulación de alimentos, examen clínico de uñas, frotis de garganta, coprológico.
+      .tarjeta.color-acento-botones.p-4.h-100.bg
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema3/icon12_tema_3.svg' alt='AvatarTop')
+        .tarjeta
+          p.text-center Si el evento incluye manipulación de alimentos, se requiere listado del personal que preparará los mismos con su respectivo certificado del curso de manipulación de alimentos, examen clínico de uñas, frotis de garganta, coprológico.
 
-    separador
-    #t_3_2.titulo-segundo.color-acento-contenido
-      h2 3.2 Personal logístico
+    h3.mt-5 Personal logístico
 
     .row
       .col-lg-9
-        .bloque-texto-b.color-primario-tema3.p-4
-          .bloque-texto-b__texto
-            p.mb-0 Ahora, aparte de contar con los documentos necesarios, gran parte del éxito de un evento depende del personal logístico, quienes se encargan de mantener el contacto con el organizador, establecer tiempos y coordinar las actividades relacionadas al recinto,  equipos de audio y video, mesas, sillas y otros. El tipo y cantidad de recurso humano está dado por el tipo de evento, sus características y número de participantes. 
-            <br>
-            <br>
-            p.mt-3 Este personal debe estar presente en cada etapa del evento con la intención de asegurar su éxito teniendo en cuenta lo planeado; la idea es que cada etapa esté cubierta por el <em>staff</em> en un mínimo de 2 personas según la cantidad de asistentes, y cubriendo entre otras las siguientes áreas: 
+        p Ahora, aparte de contar con los documentos necesarios, gran parte del éxito de un evento depende del personal logístico, quienes se encargan de mantener el contacto con el organizador, establecer tiempos y coordinar las actividades relacionadas al recinto, equipos de audio y video, mesas, sillas y otros. El tipo y cantidad de recurso humano está dado por el tipo de evento, sus características y número de participantes. 
+
+        p Este personal debe estar presente en cada etapa del evento con la intención de asegurar su éxito teniendo en cuenta lo planeado; la idea es que cada etapa esté cubierta por el <em>staff</em> en un mínimo de 2 personas según la cantidad de asistentes, y cubriendo entre otras las siguientes áreas: 
       .col-lg-3  
         figure
         img(width="70" height="230" src="@/assets/curso/temas/tema3/img2_tema_3.svg", alt="alt")

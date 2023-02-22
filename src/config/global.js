@@ -41,20 +41,6 @@ export default {
         numero: '3',
         titulo: 'Normas de seguridad y trabajo en eventos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Documentación legal',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Personal logístico',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',
@@ -62,32 +48,6 @@ export default {
         numero: '4',
         titulo: 'Riesgos en los eventos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: 'Trabajo en alturas',
-            hash: 't_4_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo: 'Normatividad en alturas',
-            hash: 't_4_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.3',
-            titulo: 'Implementos de protección y dotación.',
-            hash: 't_4_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.4',
-            titulo: 'Documentación requerida seguridad social',
-            hash: 't_4_4',
-          },
-        ],
       },
       {
         nombreRuta: 'tema5',
@@ -102,21 +62,6 @@ export default {
         numero: '6',
         titulo: 'Condiciones de escenarios',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.1',
-            titulo: 'Estructuras para eventos',
-            hash: 't_6_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.2',
-            titulo:
-              'Instalaciones eléctricas, sustancias inflamables y normativa de uso.',
-            hash: 't_6_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema7',

@@ -10,8 +10,8 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Actividad didáctica
-        p.mb-4 #[b Objetivo] Desarrolle la siguiente actividad y pondrá a prueba los conocimientos desarrollados en esta unidad de aprendizaje. Conteste falso o verdadero según corresponda al enunciado.
+          h2 Montajes y normatividad de los eventos
+        p.mb-4 Desarrolle la siguiente actividad y pondrá a prueba los conocimientos desarrollados en esta unidad de aprendizaje. Conteste falso o verdadero según corresponda al enunciado.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

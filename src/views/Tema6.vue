@@ -9,62 +9,34 @@
 
     .row.mt-5
       .col-lg-8
-        .bloque-texto-b.color-primario-tema6.p-4
-          .bloque-texto-b__texto
-            p.mb-0 El escenario en espacios abiertos estará conformado por una plataforma, elevada del suelo, donde se desarrolla la escena. También se pueden implementar otras estructuras como torres, muros o contrafuertes, alas y la cubierta, y de ser necesario, se crean estructuras específicas para la ubicación de equipos de vídeo, prensa, cañoneros, equipos de control de sonido o incluso zonas VIP.
+        p El escenario en espacios abiertos estará conformado por una plataforma, elevada del suelo, donde se desarrolla la escena. También se pueden implementar otras estructuras como torres, muros o contrafuertes, alas y la cubierta, y de ser necesario, se crean estructuras específicas para la ubicación de equipos de vídeo, prensa, cañoneros, equipos de control de sonido o incluso zonas VIP.
       .col-lg-4.mb-5.mb-lg-0
         figure
         img(src="@/assets/curso/temas/tema6/img1_tema_6.svg", alt="alt") 
 
-    separador
-    #t_6_1.titulo-segundo.color-acento-contenido
-      h2 6.1 Estructuras para eventos
+    h3.mt-5 Estructuras para eventos
 
-    .row
-      .col-lg-12
-          p Dentro de las estructuras más usadas en eventos se encuentran:
+    p Dentro de las estructuras más usadas en eventos se encuentran:   
     
-    
-    .px-5.py-3.mb-5
-      SlyderA(tipo="b")
-        .row.justify-content-center.align-items-center.my-lg-4
-          .col-lg-12.mb-4.mb-lg-0.pt-5.pt-0.position-relative
-            .number(data-number="01")
-            figure
-              img(src='@/assets/curso/temas/tema6/img2_tema_6.svg')
-              figcaption <p><b>Torres</b></p>
+    SlyderA(tipo="b")
+      .row.justify-content-center.align-items-center
+        .col-12
+          img.brad(src='@/assets/curso/temas/tema6/1.png')
 
-        .row.justify-content-center.align-items-center.my-lg-4
-          .col-lg-12.mb-4.mb-lg-0.pt-5.pt-0.position-relative
-            .number(data-number="02")
-              h4.ps-4 
-              p.ps-4.mb-0  
-              figure
-              img(src='@/assets/curso/temas/tema6/img3_tema_6.svg')
-              figcaption <p><b>Plataformas</b></p>
+      .row.justify-content-center.align-items-center
+        .col-12
+          img.brad(src='@/assets/curso/temas/tema6/2.png')
 
 
-        .row.justify-content-center.align-items-center.my-lg-4
-          .col-lg-12.mb-4.mb-lg-0.pt-5.pt-0.position-relative
-            .number(data-number="03")
-              h4.ps-4 
-              p.ps-4.mb-0
-              figure
-              img(src='@/assets/curso/temas/tema6/img4_tema_6.svg')
-              figcaption <p><b>Cubiertas</b></p> 
+      .row.justify-content-center.align-items-center
+        .col-12
+          img.brad(src='@/assets/curso/temas/tema6/3.png')
 
-        .row.justify-content-center.align-items-center.my-lg-4
-          .col-lg-12.mb-4.mb-lg-0.pt-5.pt-0.position-relative
-            .number(data-number="04")
-              p.ps-4.mb-0 
-              figure
-              img(src='@/assets/curso/temas/tema6/img5_tema_6.svg')
-              figcaption <p><b>Gradas</b></p> 
+      .row.justify-content-center.align-items-center
+        .col-12
+          img.brad(src='@/assets/curso/temas/tema6/4.png')
 
-
-    separador
-    #t_6_2.titulo-segundo.color-acento-contenido
-      h2 6.2. Instalaciones eléctricas, sustancias inflamables y normativa de uso.                   
+    h3.mt-5 Instalaciones eléctricas, sustancias inflamables y normativa de uso.                   
 
     .row.mt-3
       .col-lg-4
@@ -83,56 +55,47 @@
 
     .slyderB_bg_01.px-5.py-3.mb-5
       SlyderA(tipo="b")
-        .row.justify-content-center.align-items-center.my-lg-4
-          .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative
-            .number(data-number="01")
-              h4.ps-4 
-              p.ps-4.mb-0  Evaluar los riesgos existentes y peligros potenciales en el lugar del evento.
-          .col-6.col-lg-4
+        .row.justify-content-center.align-items-start.mt-5
+          .col-lg-6          
+            p Evaluar los riesgos existentes y peligros potenciales en el lugar del evento.
+          .col-6.col-lg-5
             figure
               img(src='@/assets/curso/temas/tema6/img8_tema_6.svg')
 
-        .row.justify-content-center.align-items-center.my-lg-4
-          .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative
-            .number(data-number="02")
-              h4.ps-4 
-              p.ps-4.mb-0 Capacitar a los empleados frente al uso de materiales peligrosos, los cuales deben estar correctamente marcados y almacenados.
-          .col-6.col-lg-4
+        .row.justify-content-center.align-items-start.mt-5
+          .col-lg-6          
+            p Capacitar a los empleados frente al uso de materiales peligrosos, los cuales deben estar correctamente marcados y almacenados.
+          .col-6.col-lg-5
             figure
               img(src='@/assets/curso/temas/tema6/img9_tema_6.svg')
 
-        .row.justify-content-center.align-items-center.my-lg-4
-          .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative
-            .number(data-number="03")
-              h4.ps-4 
-              p.ps-4.mb-0 Los materiales peligrosos deben tener su etiqueta para que los empleados la puedan leer y asegurarse de manipularlos correctamente. 
-          .col-6.col-lg-4
+        .row.justify-content-center.align-items-start.mt-5
+          .col-lg-6          
+            p Los materiales peligrosos deben tener su etiqueta para que los empleados la puedan leer y asegurarse de manipularlos correctamente. 
+          .col-6.col-lg-5
             figure
               img(src='@/assets/curso/temas/tema6/img10_tema_6.svg')
 
-        .row.justify-content-center.align-items-center.my-lg-4
-          .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative
-            .number(data-number="04")
-              p.ps-4.mb-0 Los empleados deben dar cuenta de fugas, derrames o contenedores en mal estado.
-          .col-6.col-lg-4
+        .row.justify-content-center.align-items-start.mt-5
+          .col-lg-6          
+            p Los empleados deben dar cuenta de fugas, derrames o contenedores en mal estado.
+          .col-6.col-lg-5
             figure
               img(src='@/assets/curso/temas/tema6/img11_tema_6.svg')
    
 
-        .row.justify-content-center.align-items-center.my-lg-4
-          .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative
-            .number(data-number="04")
-              p.ps-4.mb-0 Las sustancias altamente inflamables deben almacenarse lejos de agentes oxidantes potentes y de materiales que puedan tener una combustión espontánea.
-          .col-6.col-lg-4
+        .row.justify-content-center.align-items-start.mt-5
+          .col-lg-6          
+            p Las sustancias altamente inflamables deben almacenarse lejos de agentes oxidantes potentes y de materiales que puedan tener una combustión espontánea.
+          .col-6.col-lg-5
             figure
               img(src='@/assets/curso/temas/tema6/img12_tema_6.svg')
 
 
-        .row.justify-content-center.align-items-center.my-lg-4
-          .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative
-            .number(data-number="04")
-              p.ps-4.mb-0 Contar con extintores de incendios y materiales inertes absorbentes como arena y tierra seca, para su utilización en situaciones de emergencia.
-          .col-6.col-lg-4
+        .row.justify-content-center.align-items-start.mt-5
+          .col-lg-6          
+            p Contar con extintores de incendios y materiales inertes absorbentes como arena y tierra seca, para su utilización en situaciones de emergencia.
+          .col-6.col-lg-5
             figure
               img(src='@/assets/curso/temas/tema6/img13_tema_6.svg')
 

@@ -33,7 +33,7 @@
          
           .tarjeta.clr--gris.opciones-t8.p-4(titulo="Clase C")
             p.mb-0 <b>Clase C</b>
-            p.mb-3 Sirven para operaciones de transporte de mercancías ‘o personas y/o experimentales’. Su peso puede ser mayor a 150 kilogramos.(Acosta Argote, 2021)
+            p.mb-3 Sirven para operaciones de transporte de mercancías o personas y/o experimentales. Su peso puede ser mayor a 150 kilogramos. (Acosta Argote, 2021)
     
     .row.mt-5
       .col.lg-12
@@ -43,7 +43,7 @@
           )
           .bloque-texto-g__texto-t1.p-4
             p.mb-3 <b>Normatividad Reglamento Aeronáutico Colombiano.</b> 
-            p.mb-3 En Colombia se permite el vuelo de drones siempre y cuando se cumpla con el reglamento de La aeronáutica civil y la Resolución No. 04201 del 27 de Diciembre de 2018, que tiene como propósito, brindar las orientaciones para la operación y aeronavegabilidad de UAS (sistemas aéreos no tripulados, que a su vez engloban la aeronave, la estación en tierra y el enlace de comunicaciones) y para la inscripción de explotadores, operadores y equipos. La utilización de drones particularmente en espacios interiores completamente cerrados podrá llevarse a cabo de acuerdo con la información facilitada por el fabricante y el titular del recinto.
+            p.mb-3 En Colombia se permite el vuelo de drones siempre y cuando se cumpla con el reglamento de la Aeronáutica Civil y la Resolución No. 04201 del 27 de diciembre de 2018, que tiene como propósito, brindar las orientaciones para la operación y aeronavegabilidad de UAS (sistemas aéreos no tripulados, que a su vez engloban la aeronave, la estación en tierra y el enlace de comunicaciones) y para la inscripción de explotadores, operadores y equipos. La utilización de drones particularmente en espacios interiores completamente cerrados podrá llevarse a cabo de acuerdo con la información facilitada por el fabricante y el titular del recinto.
 
 </template>
 

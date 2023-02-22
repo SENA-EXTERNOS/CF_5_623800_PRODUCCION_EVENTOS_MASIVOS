@@ -11,7 +11,7 @@
       .col-lg-12
         .bloque-texto-b.color-primario-t4.p-4
           .bloque-texto-b__texto
-            p.mb-3 La seguridad es muy importante durante todas las etapas de un evento, y debe amparar tanto al equipo de colaboradores, infraestructura, equipos y mobiliario como a los participantes. Aunque más adelante tendrá la oportunidad de estudiar este tema con mayor profundidad, es necesario nombrar algunos de los riesgos más comunes.
+            p.mb-3 Ahora, aparte de contar con los documentos necesarios, gran parte del éxito de un evento depende del personal logístico, quienes se encargan de mantener el contacto con el organizador, establecer tiempos y coordinar las actividades relacionadas al recinto, equipos de audio y video, mesas, sillas y otros. El tipo y cantidad de recurso humano está dado por el tipo de evento, sus características y número de participantes. 
             br
             br
             p.mb-5 Según su naturaleza los riesgos se pueden clasificar así:           
@@ -71,9 +71,7 @@
             p.mb-0 Cables colgando
  
 
-    separador
-    #t_4_1.titulo-segundo.color-acento-contenido
-      h2 4.1 Trabajo en alturas.
+    h3.mt-5 Trabajo en alturas.
 
     .row.mt-3
       .col-lg-4
@@ -119,9 +117,7 @@
                 | No se debe permitir que una persona no competente realice trabajo en alturas.     
 
   
-    separador
-    #t_4_2.titulo-segundo.color-acento-contenido
-      h2 4.2 Normativa en alturas.
+    h3.mt-5 Normativa en alturas.
     
     .row.mt-5
       .col-lg-12
@@ -178,9 +174,7 @@
               h3 Resolución 1409 de 2012
               p Expide el reglamento de seguridad para protección contra caídas en trabajos en alturas.
 
-    separador
-    #t_4_3.titulo-segundo.color-acento-contenido
-      h2 4.3 Implementos de protección y dotación.  
+    h3.mt-5 Implementos de protección y dotación.  
 
     .row-mt-5.parraf-t4
       .col-lg-12 
@@ -197,7 +191,7 @@
             img(src='@/assets/curso/temas/tema4/img10_tema_4.svg', alt='Texto que describa la imagen')
             
         .tarjeta.tarjeta.color-acento-botones-t3.p-3(x="52%" y="10%" numero="1")
-          p.heading_t4  <b>Ojos y cara:</b> gafas de seguridad, careta de seguridad, gafas de soldadura
+          p.heading_t4  <b>Ojos y cara:</b> gafas de seguridad, careta de seguridad, gafas de soldadura.
         .tarjeta.tarjeta.color-acento-botones-t3.p-3(x="44%" y="20%" numero="2")
           p.heading_t4 <b>Nariz y boca para proteger el aparato respiratorio:</b> respirador autocontenido, respirador purificante o tapabocas desechable. 
         .tarjeta.tarjeta.color-acento-botones-t3.p-3(x="56%" y="24%" numero="3")
@@ -213,9 +207,7 @@
         .tarjeta.tarjeta.color-acento-botones-t3.p-3(x="50%" y="50%" numero="8")
           p.heading_t4 <b>Salva caídas <em>troll</em> o arrestador:</b> es el elemento deslizante en un solo sentido, con doble traba de seguridad, que le permite asegurarse a la línea de vida que recorre la ruta de ascenso y descenso y que se conecta al arnés. Debe detener la caída del trabajador, mediante bloqueo automático sobre la línea de vida (Sumatec, 2019)   
     
-    separador
-    #t_4_4.titulo-segundo.color-acento-contenido
-      h2 4.4 Documentación requerida seguridad social
+    h3.mt-5 Documentación requerida seguridad social
 
     .row.mt-5
       .col-lg-4
@@ -227,7 +219,7 @@
             p.mb-0 La seguridad social, según el Ministerio de Trabajo (s.f.) es un sistema que cubre eventualidades como la de alteración a la salud, incapacidad laboral, desempleo, vejez y muerte, para cuya protección se establecieron los sistemas de salud, pensiones, riesgos laborales y de subsidio familiar. 
             <br>
             <br>
-            p.mb-3 Para el caso de la contratación de proveedores y empleados en la organización de eventos, cada empresa contratista deberá garantizar que se cuente con un Sistema de gestión de Seguridad y Salud en el trabajo exigible por ley o en su defecto que cada empleado, realice sus aportes de manera independiente a dicho sistema y que presente su planilla de seguridad social para poder acceder al pago de sus servicios. 
+            p.mb-3 Para el caso de la contratación de proveedores y empleados en la organización de eventos, cada empresa contratista deberá garantizar que se cuente con un Sistema de Gestión de Seguridad y Salud en el trabajo exigible por ley o en su defecto que cada empleado, realice sus aportes de manera independiente a dicho sistema y que presente su planilla de seguridad social para poder acceder al pago de sus servicios. 
             <br>
             <br>
             p.mb-3 Cada colaborador debe portar permanentemente su cédula de ciudadanía durante la realización de cualquier actividad dentro del evento.
