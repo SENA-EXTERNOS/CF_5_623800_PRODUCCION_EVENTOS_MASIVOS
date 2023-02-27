@@ -11,7 +11,7 @@
       .col-lg-12
         .bloque-texto-b.color-primario-t4.p-4
           .bloque-texto-b__texto
-            p.mb-3 Ahora, aparte de contar con los documentos necesarios, gran parte del éxito de un evento depende del personal logístico, quienes se encargan de mantener el contacto con el organizador, establecer tiempos y coordinar las actividades relacionadas al recinto, equipos de audio y video, mesas, sillas y otros. El tipo y cantidad de recurso humano está dado por el tipo de evento, sus características y número de participantes. 
+            p.mb-3 La seguridad es muy importante durante todas las etapas de un evento, y debe amparar tanto al equipo de colaboradores, infraestructura, equipos y mobiliario como a los participantes. Aunque más adelante tendrá la oportunidad de estudiar este tema con mayor profundidad, es necesario nombrar algunos de los riesgos y roles asociados más comunes.
             br
             br
             p.mb-5 Según su naturaleza los riesgos se pueden clasificar así:           

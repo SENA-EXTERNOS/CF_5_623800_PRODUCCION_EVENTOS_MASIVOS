@@ -23,7 +23,6 @@
       .col-lg-10 
         .tabla
           table
-            caption Referencia Elaboración propia.
             thead
               tr.color1-tabla
                 th CARACTERÍSTICAS
