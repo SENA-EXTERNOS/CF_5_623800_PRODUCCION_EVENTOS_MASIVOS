@@ -12,17 +12,23 @@
         .bloque-texto-b.color-primario-tema2.p-4
           .bloque-texto-b__texto
             p.mb-0 El <em>render</em> es una imagen o maqueta digital en tercera dimensión, que presenta de manera realista el <em>stand</em> o escenario que tendrá el evento. Permite proponer opciones de diseño, recursos viables a usar y un resultado final; varía dependiendo del presupuesto, las herramientas técnicas existentes y el tiempo con el que cuente el cliente. Es un perfecto aliado para tomar decisiones y realizar un proceso colaborativo entre el organizador y la empresa contratante.
-            <br>
-            <br>
-            p.mt-3 Como ejemplo, se le invita a visualizar el siguiente video: fuente: <em>Render</em> para eventos-3D
 
-    .row.mt-5
-      figure
-        .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        
-
-    .row.mt-5
+    .row.justify-content-center.align-items-center.mt-5           
+      .col-lg-10
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/componentes/ej-07.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.mb-0 Como ejemplo, se le invita a visualizar el siguiente video: fuente: #[i Render] para eventos-3D
+                .col-sm-auto
+                  a.boton.color-acento-contenido.text-white(:href="('https://www.youtube.com/watch?v=l4F7zUQ9-K4')" target="_blank")
+                    span Ver video
+                    i.fas.fa-video    
+    
+    .row
       .col-lg-12
         .bloque-texto-b.color-primario-tema21.p-4
           .bloque-texto-b__texto
