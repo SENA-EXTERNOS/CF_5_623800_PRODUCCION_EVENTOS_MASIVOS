@@ -32,7 +32,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'El <em>render</em> y el <em>rider</em> de un evento',
+        titulo: 'El <em>render</em> y el <em>raider</em> de un evento',
         desarrolloContenidos: true,
       },
       {
@@ -222,8 +222,7 @@ export default {
     {
       referencia:
         'Ministerio de trabajo Colombia (sf). ¿Qué es la seguridad social?',
-      link:
-        'https://www.mintrabajo.gov.co/empleo-y-pensiones/empleo/subdireccion-de-formalizacion-y-proteccion-del-empleo/que-es-la-seguridad-social',
+      link: 'https://www.mintrabajo.gov.co/seguridad-social',
     },
     {
       referencia:
@@ -233,12 +232,14 @@ export default {
     {
       referencia:
         'Resolución 569 de 2014. [Secretaría distrital de gobierno] Por la cual se implementan y desarrollan algunos de los aspectos relevantes establecidos en el Decreto 599 de 2013 y se dictan otras disposiciones. 17 de octubre de 2014',
-      link: '',
+      link:
+        'http://gaia.gobiernobogota.gov.co/sites/default/files/documentos/tabla_archivos/resolucion_569_de_2014_secretaria_distrital_de_gobierno.pdf',
     },
     {
       referencia:
         'Resolución 0627 de 2006. [Ministerio de Ambiente, vivienda y desarrollo territorial] Adopta y unifica valores límites permisibles para la exposición ocupacional al ruido, para su correcta aplicación en todo el territorio nacional. Abril 07 de 2006',
-      link: '',
+      link:
+        'https://www.mintrabajo.gov.co/documents/20147/45107/resolucion_00001409_de_2012.pdf',
     },
     {
       referencia:

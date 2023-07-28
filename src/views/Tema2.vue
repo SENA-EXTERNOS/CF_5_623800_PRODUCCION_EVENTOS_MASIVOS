@@ -32,7 +32,7 @@
       .col-lg-12
         .bloque-texto-b.color-primario-tema21.p-4
           .bloque-texto-b__texto
-            p.mb-0 Por su parte, el <em>rider</em> se puede definir como un documento que especifica los requerimientos técnicos y la logística necesaria para poder llevar a cabo <em>shows</em> especiales dentro de los eventos, los cuales son fundamentales en algunos de ellos, ya que funcionan como parte de la comunicación o entretenimiento. Por ejemplo, una ambientación musical para una reunión, un <em>show</em> de danza, teatro, un concierto, entre otros.
+            p.mb-0 Por su parte, el <em>raider</em> se puede definir como un documento que especifica los requerimientos técnicos y la logística necesaria para poder llevar a cabo <em>shows</em> especiales dentro de los eventos, los cuales son fundamentales en algunos de ellos, ya que funcionan como parte de la comunicación o entretenimiento. Por ejemplo, una ambientación musical para una reunión, un <em>show</em> de danza, teatro, un concierto, entre otros.
             <br>
             <br>
             p.mb-0 Los siguientes aspectos se deben especificar  en este documento, teniendo en cuenta información  suministrada por el cliente y por el organizador del evento.

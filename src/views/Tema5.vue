@@ -39,7 +39,7 @@
         figure
         img(src="@/assets/curso/temas/tema5/img2_tema_5.svg", alt="alt").imagen-decorativa-7  
       .col-lg-8
-          p.mb-3 El Ministerio del Medio Ambiente, constantemente monitorea los niveles de ruido generados por los eventos masivos o de alta convocatoria, en específico, aquellos que requieren de sistemas de amplificación y se realizan en espacios abiertos o semiabiertos. En el 2006, el Ministerio del Medio Ambiente lanzó la Resolución 0627, con el fin de orientar a los organizadores de eventos para minimizar o mitigar el impacto de sus espectáculos. Para complementar este tema por favor descargar y leer el anexo 4: Resolución 627 de 2006.
+          p.mb-3 El Ministerio del Medio Ambiente, constantemente monitorea los niveles de ruido generados por los eventos masivos o de alta convocatoria, en específico, aquellos que requieren de sistemas de amplificación y se realizan en espacios abiertos o semiabiertos. En el 2006, el Ministerio del Medio Ambiente lanzó la Resolución 0627, con el fin de orientar a los organizadores de eventos para minimizar o mitigar el impacto de sus espectáculos.
   
     .row.justify-content-center.align-items-center.mt-5           
       .col-lg-10
