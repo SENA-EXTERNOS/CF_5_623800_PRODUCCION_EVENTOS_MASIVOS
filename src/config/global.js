@@ -244,7 +244,7 @@ export default {
     {
       referencia:
         'Resolución 1409 de 2012 [Ministerio del Trabajo] Por la cual se establece el Reglamento de Seguridad para protección contra caídas en trabajo en alturas. 23 de julio de 2012',
-      link: 
+      link:
         'https://www.mintrabajo.gov.co/documents/20147/45107/resolucion_00001409_de_2012.pdf',
     },
     {
