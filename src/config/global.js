@@ -239,12 +239,12 @@ export default {
       referencia:
         'Resolución 0627 de 2006. [Ministerio de Ambiente, vivienda y desarrollo territorial] Adopta y unifica valores límites permisibles para la exposición ocupacional al ruido, para su correcta aplicación en todo el territorio nacional. Abril 07 de 2006',
       link:
-        'https://www.mintrabajo.gov.co/documents/20147/45107/resolucion_00001409_de_2012.pdf',
+        'https://corponarino.gov.co/expedientes/juridica/2006resolucion627.pdf',
     },
     {
       referencia:
         'Resolución 1409 de 2012 [Ministerio del Trabajo] Por la cual se establece el Reglamento de Seguridad para protección contra caídas en trabajo en alturas. 23 de julio de 2012',
-      link: '',
+      link: 'https://www.mintrabajo.gov.co/documents/20147/45107/resolucion_00001409_de_2012.pdf',
     },
     {
       referencia: 'Seguridad Global (2021). EPP para Trabajos en Altura.',
