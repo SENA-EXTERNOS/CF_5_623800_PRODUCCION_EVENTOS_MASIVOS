@@ -215,7 +215,13 @@ export default {
     },
     {
       referencia:
-        'Decreto 1276 de 2020. [Presidencia de la República] Reglamenta la simplificación de trámites y requisitos para la realización de espectáculos públicos de las artes escénicas, y se dictan otras disposiciones. Septiembre 23 de 2020 Instituto Nacional de Seguridad y Salud en el Trabajo (INSST), O.A., M.P (2020). Eventos y espectáculos públicos MANUAL DE BUENAS PRÁCTICAS: Planificación para el montaje y desmontaje Instituto Nacional de Seguridad y Salud en el Trabajo.',
+        'Decreto 1276 de 2020. [Presidencia de la República] Reglamenta la simplificación de trámites y requisitos para la realización de espectáculos públicos de las artes escénicas, y se dictan otras disposiciones. Septiembre 23 de 2020 Instituto Nacional de Seguridad y Salud en el Trabajo (INSST), O.A., M.P (2020).',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=142462 ',
+    },
+    {
+      referencia:
+        'Eventos y espectáculos públicos MANUAL DE BUENAS PRÁCTICAS: Planificación para el montaje y desmontaje Instituto Nacional de Seguridad y Salud en el Trabajo.',
       link:
         'https://www.insst.es/documentacion/catalogo-de-publicaciones/eventos-y-espect%C3%A1culos-p%C3%BAblicos-manual-de-buenas-pr%C3%A1cticas-planificaci%C3%B3n-para-el-montaje-y-desmontaje',
     },
