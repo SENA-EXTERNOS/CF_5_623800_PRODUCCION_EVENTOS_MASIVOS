@@ -140,7 +140,7 @@
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema4/img5_tema_4.png', alt='').img125
             .col-lg
-              h3 Resolución 1248 de 202
+              h3 Resolución 1248 de 2020
               p Medidas transitorias frente a la capacitación y entrenamiento para trabajo seguro en alturas, durante la emergencia sanitaria del COVID 19. Fue expedida por el Ministerio de Trabajo
           .row
             .col-lg
