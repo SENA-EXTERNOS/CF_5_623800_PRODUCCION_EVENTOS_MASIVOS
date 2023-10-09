@@ -110,7 +110,7 @@
 
           .tarjeta.clr--gris.opciones-t8.p-4(titulo="Fuegos grandes <br>artificiales")
             p.mb-0 <b>Fuegos grandes artificiales: </b>
-            p.mb-3 solo pueden ser manipulados por personas capacitadas en el tema, por tanto, no son aptos para uso personal. Logran alcanzar una gran altura y explosión; esta característica los diferencia de los otros fuegos artificiales. Este tipo de espectáculo le da un mayor nivel a cualquier evento cuya temática vaya acorde con el show.
+            p.mb-3 solo pueden ser manipulados por personas capacitadas en el tema, por tanto, no son aptos para uso personal. Logran alcanzar una gran altura y explosión; esta característica los diferencia de los otros fuegos artificiales. Este tipo de espectáculo le da un mayor nivel a cualquier evento cuya temática vaya acorde con el <i>show</i>.
             
     .row.mt-5.justify-content-around.align-items-center
       .col-lg-10  

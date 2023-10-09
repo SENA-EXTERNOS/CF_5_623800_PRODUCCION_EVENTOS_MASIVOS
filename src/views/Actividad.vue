@@ -15,7 +15,7 @@
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Verdadero y falso
+              p.fw-bold.mb-0 Verdadero o falso
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/Actividad_didactica_CF_5_623800/story.html')" target="_blank")
                 span Realizar

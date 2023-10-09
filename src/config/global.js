@@ -253,10 +253,7 @@ export default {
       link:
         'https://www.mintrabajo.gov.co/documents/20147/45107/resolucion_00001409_de_2012.pdf',
     },
-    {
-      referencia: 'Seguridad Global (2021). EPP para Trabajos en Altura.',
-      link: 'https://seguridadglobal.com.ar/epp-trabajos-altura/',
-    },
+
     {
       referencia:
         'Sumatec (2019). ¿Cuáles son los EPP para trabajo en alturas?',

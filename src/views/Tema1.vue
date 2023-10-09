@@ -121,11 +121,11 @@
       .col.lg-12
         p.mb-0 Es importante considerar que los asistentes necesitan un espacio mínimo para moverse con soltura y comodidad.          
     .row.mt-5
-      .col.lg-12
+      .col.lg-10
         p.mb-0 <b>¿Se pueden combinar varios tipos de montajes?</b>
 
-    .row.mt-5
-      .col.lg-4
+    .row.justify-content-center.align-items-center.mt-5
+      .col-10
         img(src="@/assets/curso/temas/tema1/img4_tema_1.png", alt="alt")
     .row.mt-5
       .col.lg-12
@@ -365,7 +365,7 @@
             li.fas.fa-check
               p.mb-0.ps-2 <b>Escenario <i>led</i></b>. Un escenario con pantallas led puede ser un poco más tradicional pues se utiliza de manera frecuente en eventos presenciales. Sin embargo, en una modalidad híbrida este tipo de escenario le permitirá tener mayor consistencia entre la información que visualizará el público presencial y el virtual.
             li.fas.fa-check
-              p.mb-0.ps-2 <b>Escenario <i>chroma Key</i></b>. utiliza un fondo comúnmente verde, donde se proyectará un escenario o fondo virtual que previamente deberá definir. Es un escenario muy versátil y puede aportar un ambiente mucho más creativo para el desarrollo del evento. (párr. 29)
+              p.mb-0.ps-2 <b>Escenario <i>chroma Key</i></b>. Utiliza un fondo comúnmente verde, donde se proyectará un escenario o fondo virtual que previamente deberá definir. Es un escenario muy versátil y puede aportar un ambiente mucho más creativo para el desarrollo del evento. (párr. 29)
 
 
 

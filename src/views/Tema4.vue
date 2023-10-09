@@ -71,7 +71,7 @@
             p.mb-0 Cables colgando
  
 
-    h3.mt-5 Trabajo en alturas.
+    h3.mt-5 Trabajo en alturas
 
     .row.mt-3
       .col-lg-4
@@ -117,7 +117,7 @@
                 | No se debe permitir que una persona no competente realice trabajo en alturas.     
 
   
-    h3.mt-5 Normativa en alturas.
+    h3.mt-5 Normativa en alturas
     
     .row.mt-5
       .col-lg-12
@@ -174,7 +174,7 @@
               h3 Resolución 1409 de 2012
               p Expide el reglamento de seguridad para protección contra caídas en trabajos en alturas.
 
-    h3.mt-5 Implementos de protección y dotación.  
+    h3.mt-5 Implementos de protección y dotación
 
     .row-mt-5.parraf-t4
       .col-lg-12 
