@@ -259,9 +259,9 @@
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
                     h3.mb-1 Anexo 2
-                    p Plataformas para conocer las plataformas más usadas. 
+                    p Plataformas mas usadas para eventos virtuales. 
                   .col-sm-auto
-                    a.boton.color-acento-contenido(:href="obtenerLink('/downloads/3-Anexo_2_Plataformas_eventos_virtuales.pdf')" target="_blank")
+                    a.boton.color-acento-contenido(:href="obtenerLink('/downloads/Anexo_2_Plataformas_eventos_virtuales.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
         
